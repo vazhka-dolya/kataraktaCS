@@ -80,16 +80,21 @@
             // 
             // splitContainer1.Panel1
             // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.treeViewTemplateExplorer);
+            this.toolTip1.SetToolTip(this.splitContainer1.Panel1, resources.GetString("splitContainer1.Panel1.ToolTip"));
             // 
             // splitContainer1.Panel2
             // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.Panel2.Controls.Add(this.listViewEditTemplate);
+            this.toolTip1.SetToolTip(this.splitContainer1.Panel2, resources.GetString("splitContainer1.Panel2.ToolTip"));
+            this.toolTip1.SetToolTip(this.splitContainer1, resources.GetString("splitContainer1.ToolTip"));
             // 
             // treeViewTemplateExplorer
             // 
-            this.treeViewTemplateExplorer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.treeViewTemplateExplorer, "treeViewTemplateExplorer");
+            this.treeViewTemplateExplorer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.treeViewTemplateExplorer.FullRowSelect = true;
             this.treeViewTemplateExplorer.HideSelection = false;
             this.treeViewTemplateExplorer.HotTracking = true;
@@ -97,6 +102,7 @@
             this.treeViewTemplateExplorer.ItemHeight = 16;
             this.treeViewTemplateExplorer.Name = "treeViewTemplateExplorer";
             this.treeViewTemplateExplorer.ShowLines = false;
+            this.toolTip1.SetToolTip(this.treeViewTemplateExplorer, resources.GetString("treeViewTemplateExplorer.ToolTip"));
             this.treeViewTemplateExplorer.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeViewTemplateExplorer_BeforeSelect);
             this.treeViewTemplateExplorer.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeViewTemplateExplorer_AfterSelect);
             // 
@@ -111,13 +117,14 @@
             // 
             // listViewEditTemplate
             // 
-            this.listViewEditTemplate.AllowDrop = true;
             resources.ApplyResources(this.listViewEditTemplate, "listViewEditTemplate");
+            this.listViewEditTemplate.AllowDrop = true;
             this.listViewEditTemplate.HideSelection = false;
             this.listViewEditTemplate.LargeImageList = this.imageList1;
             this.listViewEditTemplate.MultiSelect = false;
             this.listViewEditTemplate.Name = "listViewEditTemplate";
             this.listViewEditTemplate.SmallImageList = this.imageList1;
+            this.toolTip1.SetToolTip(this.listViewEditTemplate, resources.GetString("listViewEditTemplate.ToolTip"));
             this.listViewEditTemplate.UseCompatibleStateImageBehavior = false;
             this.listViewEditTemplate.View = System.Windows.Forms.View.List;
             this.listViewEditTemplate.SelectedIndexChanged += new System.EventHandler(this.listViewEditTemplate_SelectedIndexChanged);
@@ -131,20 +138,22 @@
             // 
             // groupTemplateMain
             // 
+            resources.ApplyResources(this.groupTemplateMain, "groupTemplateMain");
             this.groupTemplateMain.Controls.Add(this.textBoxTemplateFilename);
             this.groupTemplateMain.Controls.Add(this.labelTemplateFilename);
             this.groupTemplateMain.Controls.Add(this.textBoxTemplateDesc);
             this.groupTemplateMain.Controls.Add(this.labelTemplateDesc);
             this.groupTemplateMain.Controls.Add(this.textBoxTemplateTitle);
             this.groupTemplateMain.Controls.Add(this.labelTemplateTitle);
-            resources.ApplyResources(this.groupTemplateMain, "groupTemplateMain");
             this.groupTemplateMain.Name = "groupTemplateMain";
             this.groupTemplateMain.TabStop = false;
+            this.toolTip1.SetToolTip(this.groupTemplateMain, resources.GetString("groupTemplateMain.ToolTip"));
             // 
             // textBoxTemplateFilename
             // 
             resources.ApplyResources(this.textBoxTemplateFilename, "textBoxTemplateFilename");
             this.textBoxTemplateFilename.Name = "textBoxTemplateFilename";
+            this.toolTip1.SetToolTip(this.textBoxTemplateFilename, resources.GetString("textBoxTemplateFilename.ToolTip"));
             // 
             // labelTemplateFilename
             // 
@@ -157,6 +166,7 @@
             // 
             resources.ApplyResources(this.textBoxTemplateDesc, "textBoxTemplateDesc");
             this.textBoxTemplateDesc.Name = "textBoxTemplateDesc";
+            this.toolTip1.SetToolTip(this.textBoxTemplateDesc, resources.GetString("textBoxTemplateDesc.ToolTip"));
             // 
             // labelTemplateDesc
             // 
@@ -169,9 +179,11 @@
             // 
             resources.ApplyResources(this.textBoxTemplateTitle, "textBoxTemplateTitle");
             this.textBoxTemplateTitle.Name = "textBoxTemplateTitle";
+            this.toolTip1.SetToolTip(this.textBoxTemplateTitle, resources.GetString("textBoxTemplateTitle.ToolTip"));
             // 
             // groupTemplateItems
             // 
+            resources.ApplyResources(this.groupTemplateItems, "groupTemplateItems");
             this.groupTemplateItems.Controls.Add(this.textBoxTextureSegAddr);
             this.groupTemplateItems.Controls.Add(this.labelTextureSegAddr);
             this.groupTemplateItems.Controls.Add(this.comboTextureFormat);
@@ -183,14 +195,15 @@
             this.groupTemplateItems.Controls.Add(this.labelTexturePackFilename);
             this.groupTemplateItems.Controls.Add(this.textBoxTextureTitle);
             this.groupTemplateItems.Controls.Add(this.labelTextureTitle);
-            resources.ApplyResources(this.groupTemplateItems, "groupTemplateItems");
             this.groupTemplateItems.Name = "groupTemplateItems";
             this.groupTemplateItems.TabStop = false;
+            this.toolTip1.SetToolTip(this.groupTemplateItems, resources.GetString("groupTemplateItems.ToolTip"));
             // 
             // textBoxTextureSegAddr
             // 
             resources.ApplyResources(this.textBoxTextureSegAddr, "textBoxTextureSegAddr");
             this.textBoxTextureSegAddr.Name = "textBoxTextureSegAddr";
+            this.toolTip1.SetToolTip(this.textBoxTextureSegAddr, resources.GetString("textBoxTextureSegAddr.ToolTip"));
             this.textBoxTextureSegAddr.TextChanged += new System.EventHandler(this.textBoxTextureSegAddr_TextChanged);
             // 
             // labelTextureSegAddr
@@ -202,6 +215,7 @@
             // 
             // comboTextureFormat
             // 
+            resources.ApplyResources(this.comboTextureFormat, "comboTextureFormat");
             this.comboTextureFormat.FormattingEnabled = true;
             this.comboTextureFormat.Items.AddRange(new object[] {
             resources.GetString("comboTextureFormat.Items"),
@@ -211,14 +225,15 @@
             resources.GetString("comboTextureFormat.Items4"),
             resources.GetString("comboTextureFormat.Items5"),
             resources.GetString("comboTextureFormat.Items6")});
-            resources.ApplyResources(this.comboTextureFormat, "comboTextureFormat");
             this.comboTextureFormat.Name = "comboTextureFormat";
+            this.toolTip1.SetToolTip(this.comboTextureFormat, resources.GetString("comboTextureFormat.ToolTip"));
             this.comboTextureFormat.SelectedIndexChanged += new System.EventHandler(this.comboTextureFormat_SelectedIndexChanged);
             // 
             // textBoxTextureAltFilename
             // 
             resources.ApplyResources(this.textBoxTextureAltFilename, "textBoxTextureAltFilename");
             this.textBoxTextureAltFilename.Name = "textBoxTextureAltFilename";
+            this.toolTip1.SetToolTip(this.textBoxTextureAltFilename, resources.GetString("textBoxTextureAltFilename.ToolTip"));
             this.textBoxTextureAltFilename.TextChanged += new System.EventHandler(this.textBoxTextureAltFilename_TextChanged);
             // 
             // labelTextureFormat
@@ -248,6 +263,7 @@
             // 
             resources.ApplyResources(this.textBoxTexturePackFilename, "textBoxTexturePackFilename");
             this.textBoxTexturePackFilename.Name = "textBoxTexturePackFilename";
+            this.toolTip1.SetToolTip(this.textBoxTexturePackFilename, resources.GetString("textBoxTexturePackFilename.ToolTip"));
             this.textBoxTexturePackFilename.TextChanged += new System.EventHandler(this.textBoxTexturePackFilename_TextChanged);
             // 
             // labelTexturePackFilename
@@ -261,6 +277,7 @@
             // 
             resources.ApplyResources(this.textBoxTextureTitle, "textBoxTextureTitle");
             this.textBoxTextureTitle.Name = "textBoxTextureTitle";
+            this.toolTip1.SetToolTip(this.textBoxTextureTitle, resources.GetString("textBoxTextureTitle.ToolTip"));
             this.textBoxTextureTitle.TextChanged += new System.EventHandler(this.textBoxTextureTitle_TextChanged);
             // 
             // labelTextureTitle
@@ -298,6 +315,7 @@
             // 
             resources.ApplyResources(this.buttonSave, "buttonSave");
             this.buttonSave.Name = "buttonSave";
+            this.toolTip1.SetToolTip(this.buttonSave, resources.GetString("buttonSave.ToolTip"));
             this.buttonSave.UseVisualStyleBackColor = true;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
@@ -305,6 +323,7 @@
             // 
             resources.ApplyResources(this.buttonAddTexture, "buttonAddTexture");
             this.buttonAddTexture.Name = "buttonAddTexture";
+            this.toolTip1.SetToolTip(this.buttonAddTexture, resources.GetString("buttonAddTexture.ToolTip"));
             this.buttonAddTexture.UseVisualStyleBackColor = true;
             this.buttonAddTexture.Click += new System.EventHandler(this.buttonAddTexture_Click);
             // 
@@ -312,6 +331,7 @@
             // 
             resources.ApplyResources(this.buttonRemoveTexture, "buttonRemoveTexture");
             this.buttonRemoveTexture.Name = "buttonRemoveTexture";
+            this.toolTip1.SetToolTip(this.buttonRemoveTexture, resources.GetString("buttonRemoveTexture.ToolTip"));
             this.buttonRemoveTexture.UseVisualStyleBackColor = true;
             this.buttonRemoveTexture.Click += new System.EventHandler(this.buttonRemoveTexture_Click);
             // 
@@ -319,6 +339,7 @@
             // 
             resources.ApplyResources(this.buttonCreateFolderSettings, "buttonCreateFolderSettings");
             this.buttonCreateFolderSettings.Name = "buttonCreateFolderSettings";
+            this.toolTip1.SetToolTip(this.buttonCreateFolderSettings, resources.GetString("buttonCreateFolderSettings.ToolTip"));
             this.buttonCreateFolderSettings.UseVisualStyleBackColor = true;
             this.buttonCreateFolderSettings.Click += new System.EventHandler(this.buttonCreateFolderSettings_Click);
             // 
@@ -326,28 +347,32 @@
             // 
             resources.ApplyResources(this.buttonCreateTemplate, "buttonCreateTemplate");
             this.buttonCreateTemplate.Name = "buttonCreateTemplate";
+            this.toolTip1.SetToolTip(this.buttonCreateTemplate, resources.GetString("buttonCreateTemplate.ToolTip"));
             this.buttonCreateTemplate.UseVisualStyleBackColor = true;
             this.buttonCreateTemplate.Click += new System.EventHandler(this.buttonCreateTemplate_Click);
             // 
             // groupFolderSettings
             // 
+            resources.ApplyResources(this.groupFolderSettings, "groupFolderSettings");
             this.groupFolderSettings.Controls.Add(this.comboFolderSettingsTemplateUsed);
             this.groupFolderSettings.Controls.Add(this.checkFolderSettingsCoverSubfolders);
             this.groupFolderSettings.Controls.Add(this.labelFolderSettingsTemplateUsed);
-            resources.ApplyResources(this.groupFolderSettings, "groupFolderSettings");
             this.groupFolderSettings.Name = "groupFolderSettings";
             this.groupFolderSettings.TabStop = false;
+            this.toolTip1.SetToolTip(this.groupFolderSettings, resources.GetString("groupFolderSettings.ToolTip"));
             // 
             // comboFolderSettingsTemplateUsed
             // 
-            this.comboFolderSettingsTemplateUsed.FormattingEnabled = true;
             resources.ApplyResources(this.comboFolderSettingsTemplateUsed, "comboFolderSettingsTemplateUsed");
+            this.comboFolderSettingsTemplateUsed.FormattingEnabled = true;
             this.comboFolderSettingsTemplateUsed.Name = "comboFolderSettingsTemplateUsed";
+            this.toolTip1.SetToolTip(this.comboFolderSettingsTemplateUsed, resources.GetString("comboFolderSettingsTemplateUsed.ToolTip"));
             // 
             // labelSelectSomething
             // 
             resources.ApplyResources(this.labelSelectSomething, "labelSelectSomething");
             this.labelSelectSomething.Name = "labelSelectSomething";
+            this.toolTip1.SetToolTip(this.labelSelectSomething, resources.GetString("labelSelectSomething.ToolTip"));
             // 
             // frmTemplateManager
             // 
@@ -365,6 +390,7 @@
             this.Controls.Add(this.groupTemplateMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmTemplateManager";
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

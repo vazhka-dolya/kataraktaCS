@@ -117,30 +117,667 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelFolderSettingsTemplateUsed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeViewTemplateExplorer.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxTemplateFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonCreateTemplate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelTextureSegAddr.ToolTip" xml:space="preserve">
+    <value>Where the texture is located in RAM.
+
+In order to find it, you can use either kataraktaCS's Texture Search, or Quad64. Though, keep
+in mind that Texture Search is still WIP, so you might have to use Quad64 in certain cases.
+
+For Texture Search, go to the location where the needed texture is loaded, hit “Scan for
+Textures,” select the texture on the list and copy the segmented address. Make sure you are
+copying the segmented address, not the virtual address below.
+
+For Quad64, open the ROM of your game, go to the level where the needed texture is located,
+then open “Textures,” select the texture and copy the segmented address. Make sure you are
+copying the segmented address, not the ROM address above.</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="labelTextureFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="textBoxTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonCreateFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 12</value>
+  </data>
+  <data name="labelTextureSegAddr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 160</value>
+  </data>
+  <data name="groupFolderSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 328</value>
+  </data>
+  <data name="checkTextureDisplay.ToolTip" xml:space="preserve">
+    <value>When previewing all the textures that the template
+has, do we show this texture?
+
+You can turn this off for identical textures as to not
+clog up the texture preview.</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonCreateTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Name" xml:space="preserve">
+    <value>labelFolderSettingsTemplateUsed</value>
+  </data>
+  <data name="comboTextureFormat.Items2" xml:space="preserve">
+    <value>I8</value>
+  </data>
+  <data name="comboTextureFormat.Items3" xml:space="preserve">
+    <value>IA8</value>
+  </data>
+  <data name="labelTemplateFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="comboTextureFormat.Items1" xml:space="preserve">
+    <value>IA4</value>
+  </data>
+  <data name="comboTextureFormat.Items6" xml:space="preserve">
+    <value>RGBA32</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Name" xml:space="preserve">
+    <value>buttonCreateFolderSettings</value>
+  </data>
+  <data name="buttonAddTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 375</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Name" xml:space="preserve">
+    <value>buttonCreateTemplate</value>
+  </data>
+  <data name="labelTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 163</value>
+  </data>
+  <data name="labelTemplateTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="buttonCreateFolderSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelTextureFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectSomething.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="buttonSave.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelTemplateTitle.ToolTip" xml:space="preserve">
+    <value>The title for the template.</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTextureTitle.ToolTip" xml:space="preserve">
+    <value>The title for the texture.</value>
+  </data>
+  <data name="labelTexturePackFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupFolderSettings.Text" xml:space="preserve">
+    <value>Folder Settings</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 375</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelTemplateDesc.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Name" xml:space="preserve">
+    <value>comboTextureFormat</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupTemplateMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelTemplateDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCreateTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelSelectSomething.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBoxTemplateTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Name" xml:space="preserve">
+    <value>labelTextureFormat</value>
+  </data>
+  <data name="groupTemplateMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 137</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="textBoxTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Name" xml:space="preserve">
+    <value>checkTextureDisplay</value>
+  </data>
+  <data name="treeViewTemplateExplorer.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="comboTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.Text" xml:space="preserve">
+    <value>Template to use:</value>
+  </data>
+  <data name="labelTemplateFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelTemplateDesc.ToolTip" xml:space="preserve">
+    <value>The description for the template.</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 59</value>
+  </data>
+  <data name="labelTemplateDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupFolderSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelTemplateFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
+  <data name="labelTextureAltFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureFormat.ToolTip" xml:space="preserve">
+    <value>The format of the texture in RAM.
+
+Found the same way the segmented address is
+found through kataraktaCS's Texture Search or
+Quad64.</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Name" xml:space="preserve">
+    <value>labelTextureTitle</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 21</value>
+  </data>
+  <data name="labelSelectSomething.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listViewEditTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comboTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 186</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonCreateTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 411</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="labelTemplateTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTextureAltFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="textBoxTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 95</value>
+  </data>
+  <data name="textBoxTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonAddTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonRemoveTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Name" xml:space="preserve">
+    <value>comboFolderSettingsTemplateUsed</value>
+  </data>
+  <data name="labelTexturePackFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Name" xml:space="preserve">
+    <value>textBoxTexturePackFilename</value>
+  </data>
+  <data name="labelSelectSomething.Text" xml:space="preserve">
+    <value>Select a Folder Settings file or a template file
+to show their properties that can be modified.</value>
+  </data>
+  <data name="textBoxTemplateDesc.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupTemplateItems.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.Name" xml:space="preserve">
+    <value>textBoxTemplateDesc</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.ToolTip" xml:space="preserve">
+    <value>Select the template that will be used to identify
+textures inside this folder.</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTemplateFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTextureSegAddr.Text" xml:space="preserve">
+    <value>Segmented address (RAM):</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="splitContainer1.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Name" xml:space="preserve">
+    <value>textBoxTemplateFilename</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Name" xml:space="preserve">
+    <value>labelTexturePackFilename</value>
+  </data>
+  <data name="buttonAddTexture.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="listViewEditTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupTemplateItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 155</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.ToolTip" xml:space="preserve">
+    <value>Whether these Folder Settings will apply across every subfolder of this folder.
+
+Example:
+Suppose you have three folders with textures in them:
+• Eyes\Angry\
+• Eyes\Angry\Very Angry\
+• Eyes\Angry\Extremely Angry\
+
+Notice how “Very Angry” and “Extremely Angry” are subfolders of “Angry.” If you
+were to create Folder Settings for “Angry” and turn this option on, then the template
+used for “Angry” will apply for “Very Angry” and “Extremely Angry” as well.</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Name" xml:space="preserve">
+    <value>textBoxTextureSegAddr</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="labelTemplateFilename.Text" xml:space="preserve">
+    <value>Filename:</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTextureSegAddr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="treeViewTemplateExplorer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="treeViewTemplateExplorer.ImageIndex" type="System.Int32, mscorlib">
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="splitContainer1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitContainer1.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listViewEditTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 142</value>
+  </data>
+  <data name="comboTextureFormat.Items" xml:space="preserve">
+    <value>I4</value>
+  </data>
+  <data name="textBoxTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 110</value>
+  </data>
+  <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="treeViewTemplateExplorer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="textBoxTextureSegAddr.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupTemplateItems.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupTemplateMain.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Name" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="groupTemplateMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 13</value>
+  </data>
+  <data name="buttonCreateFolderSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupTemplateItems.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Name" xml:space="preserve">
+    <value>checkFolderSettingsCoverSubfolders</value>
+  </data>
+  <data name="textBoxTextureTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Name" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="labelTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="buttonRemoveTexture.Text" xml:space="preserve">
+    <value>Remove Texture</value>
+  </data>
+  <data name="treeViewTemplateExplorer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="labelSelectSomething.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Name" xml:space="preserve">
+    <value>labelTemplateTitle</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="labelTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 189</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Name" xml:space="preserve">
+    <value>textBoxTemplateTitle</value>
+  </data>
+  <data name="labelSelectSomething.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 107</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>114, 17</value>
-  </metadata>
+  <data name="&gt;&gt;labelTextureSegAddr.Name" xml:space="preserve">
+    <value>labelTextureSegAddr</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupTemplateMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupTemplateItems.Text" xml:space="preserve">
+    <value>Template texture</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Name" xml:space="preserve">
+    <value>textBoxTextureTitle</value>
+  </data>
+  <data name="textBoxTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="textBoxTexturePackFilename.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Name" xml:space="preserve">
+    <value>labelTextureAltFilename</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="textBoxTemplateTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonCreateFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="buttonRemoveTexture.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelTemplateDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="groupFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 83</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 23</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaTreeViewLessFancy.kataraktaTreeViewLessFancy, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelTextureFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboTextureFormat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
-        FQAAAk1TRnQBSQFMAgEBBAEAAeQBAwHkAQMBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADg
+        FQAAAk1TRnQBSQFMAgEBBAEAAewBAwH0AQMBEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAnAAF7AdwB9QH/
         AVIB0gHxAf8BQgG1AdEB/wE6AZ8BuAH/ATYBlAGsAf8BNQGRAagB/wE1AZABpwH/ATUBkAGnAf8BNAGP
         AaUB/wEzAYwBogH/ATEBhQGaAf8BLAF5AY0B/wEqAXMBhQH/AS8BggGXAf8IAAGJAY8BNQH/AW8BdgEH
@@ -233,573 +870,85 @@
         AYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEB
         AYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEB
         AYABAwGAAQMBgAEDAYABAwGAAQMBgAEHAYABBwGAAQcBgAEDAYABDwGAAQ8BgAEPAYABAwGAAR8BgAEf
-        AYABHwGAAf8BgAE/AYABPwGAAT8I/ws=
+        AYABHwGAAf8BgAE/AYABPwGAAT8I/xYACw==
 </value>
   </data>
-  <data name="treeViewTemplateExplorer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="treeViewTemplateExplorer.SelectedImageIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="treeViewTemplateExplorer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 182</value>
-  </data>
-  <data name="treeViewTemplateExplorer.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;treeViewTemplateExplorer.Name" xml:space="preserve">
-    <value>treeViewTemplateExplorer</value>
-  </data>
-  <data name="&gt;&gt;treeViewTemplateExplorer.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaTreeViewLessFancy.kataraktaTreeViewLessFancy, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;treeViewTemplateExplorer.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;treeViewTemplateExplorer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
-    <value>splitContainer1.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="listViewEditTemplate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="listViewEditTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="listViewEditTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 142</value>
-  </data>
-  <data name="listViewEditTemplate.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;listViewEditTemplate.Name" xml:space="preserve">
-    <value>listViewEditTemplate</value>
-  </data>
-  <data name="&gt;&gt;listViewEditTemplate.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaListView.kataraktaListView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;listViewEditTemplate.Parent" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;listViewEditTemplate.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
-    <value>splitContainer1.Panel2</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>255, 328</value>
-  </data>
-  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>182</value>
-  </data>
-  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
-    <value>splitContainer1</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="labelTemplateTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTemplateTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 55</value>
-  </data>
-  <data name="labelTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="labelTemplateTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="labelTemplateTitle.Text" xml:space="preserve">
-    <value>Title:</value>
-  </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="labelTemplateTitle.ToolTip" xml:space="preserve">
-    <value>The title for the template.</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateTitle.Name" xml:space="preserve">
-    <value>labelTemplateTitle</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateTitle.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateTitle.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
   </data>
   <data name="textBoxTemplateFilename.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 32</value>
-  </data>
-  <data name="textBoxTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="textBoxTemplateFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateFilename.Name" xml:space="preserve">
-    <value>textBoxTemplateFilename</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateFilename.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateFilename.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateFilename.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelTemplateFilename.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTemplateFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTemplateFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="labelTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 13</value>
-  </data>
-  <data name="labelTemplateFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelTemplateFilename.Text" xml:space="preserve">
-    <value>Filename:</value>
-  </data>
-  <data name="labelTemplateFilename.ToolTip" xml:space="preserve">
-    <value>The filename of the template. You don't need to
-write “.json” at the end.</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateFilename.Name" xml:space="preserve">
-    <value>labelTemplateFilename</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateFilename.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateFilename.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateFilename.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="textBoxTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 110</value>
-  </data>
-  <data name="textBoxTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="textBoxTemplateDesc.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateDesc.Name" xml:space="preserve">
-    <value>textBoxTemplateDesc</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateDesc.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateDesc.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelTemplateDesc.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTemplateDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 94</value>
-  </data>
-  <data name="labelTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 13</value>
-  </data>
-  <data name="labelTemplateDesc.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="labelTemplateDesc.Text" xml:space="preserve">
-    <value>Description:</value>
-  </data>
-  <data name="labelTemplateDesc.ToolTip" xml:space="preserve">
-    <value>The description for the template.</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateDesc.Name" xml:space="preserve">
-    <value>labelTemplateDesc</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateDesc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateDesc.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;labelTemplateDesc.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="textBoxTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 71</value>
-  </data>
-  <data name="textBoxTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="textBoxTemplateTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateTitle.Name" xml:space="preserve">
-    <value>textBoxTemplateTitle</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateTitle.Parent" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;textBoxTemplateTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="groupTemplateMain.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupTemplateMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 13</value>
-  </data>
-  <data name="groupTemplateMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 137</value>
-  </data>
-  <data name="groupTemplateMain.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="groupTemplateMain.Text" xml:space="preserve">
-    <value>Template</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateMain.Name" xml:space="preserve">
-    <value>groupTemplateMain</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateMain.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="textBoxTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 160</value>
-  </data>
-  <data name="textBoxTextureSegAddr.MaxLength" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="textBoxTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 20</value>
-  </data>
-  <data name="textBoxTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureSegAddr.Name" xml:space="preserve">
-    <value>textBoxTextureSegAddr</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureSegAddr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureSegAddr.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureSegAddr.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="labelTextureSegAddr.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTextureSegAddr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 163</value>
-  </data>
-  <data name="labelTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 13</value>
-  </data>
-  <data name="labelTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="labelTextureSegAddr.Text" xml:space="preserve">
-    <value>Segmented address (RAM):</value>
-  </data>
-  <data name="labelTextureSegAddr.ToolTip" xml:space="preserve">
-    <value>Where the texture is located in RAM.
-
-In order to find it, you can use either kataraktaCS's Texture Search, or Quad64. Though, keep
-in mind that Texture Search is still WIP, so you might have to use Quad64 in certain cases.
-
-For Texture Search, go to the location where the needed texture is loaded, hit “Scan for
-Textures,” select the texture on the list and copy the segmented address. Make sure you are
-copying the segmented address, not the virtual address below.
-
-For Quad64, open the ROM of your game, go to the level where the needed texture is located,
-then open “Textures,” select the texture and copy the segmented address. Make sure you are
-copying the segmented address, not the ROM address above.</value>
-  </data>
-  <data name="&gt;&gt;labelTextureSegAddr.Name" xml:space="preserve">
-    <value>labelTextureSegAddr</value>
-  </data>
-  <data name="&gt;&gt;labelTextureSegAddr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTextureSegAddr.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;labelTextureSegAddr.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="comboTextureFormat.Items" xml:space="preserve">
-    <value>I4</value>
-  </data>
-  <data name="comboTextureFormat.Items1" xml:space="preserve">
-    <value>IA4</value>
-  </data>
-  <data name="comboTextureFormat.Items2" xml:space="preserve">
-    <value>I8</value>
-  </data>
-  <data name="comboTextureFormat.Items3" xml:space="preserve">
-    <value>IA8</value>
-  </data>
-  <data name="comboTextureFormat.Items4" xml:space="preserve">
-    <value>RGBA16</value>
-  </data>
-  <data name="comboTextureFormat.Items5" xml:space="preserve">
-    <value>IA16</value>
-  </data>
-  <data name="comboTextureFormat.Items6" xml:space="preserve">
-    <value>RGBA32</value>
-  </data>
-  <data name="comboTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 186</value>
-  </data>
-  <data name="comboTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 21</value>
-  </data>
-  <data name="comboTextureFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;comboTextureFormat.Name" xml:space="preserve">
-    <value>comboTextureFormat</value>
-  </data>
-  <data name="&gt;&gt;comboTextureFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboTextureFormat.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;comboTextureFormat.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="textBoxTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 134</value>
-  </data>
-  <data name="textBoxTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="textBoxTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureAltFilename.Name" xml:space="preserve">
-    <value>textBoxTextureAltFilename</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureAltFilename.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureAltFilename.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureAltFilename.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="labelTextureFormat.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTextureFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 189</value>
-  </data>
-  <data name="labelTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 13</value>
-  </data>
-  <data name="labelTextureFormat.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="labelTextureFormat.Text" xml:space="preserve">
-    <value>Pixel format (RAM):</value>
-  </data>
-  <data name="labelTextureFormat.ToolTip" xml:space="preserve">
-    <value>The format of the texture in RAM.
-
-Found the same way the segmented address is
-found through kataraktaCS's Texture Search or
-Quad64.</value>
-  </data>
-  <data name="&gt;&gt;labelTextureFormat.Name" xml:space="preserve">
-    <value>labelTextureFormat</value>
-  </data>
-  <data name="&gt;&gt;labelTextureFormat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTextureFormat.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;labelTextureFormat.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="labelTextureAltFilename.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTextureAltFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 118</value>
-  </data>
-  <data name="labelTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
-  </data>
-  <data name="labelTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="labelTextureAltFilename.Text" xml:space="preserve">
-    <value>Alternative filename:</value>
   </data>
   <data name="labelTextureAltFilename.ToolTip" xml:space="preserve">
     <value>The filename that can be used instead of a texture
 pack filename (very useful if you're making a
 template only for RAM, for example).</value>
   </data>
-  <data name="&gt;&gt;labelTextureAltFilename.Name" xml:space="preserve">
-    <value>labelTextureAltFilename</value>
+  <data name="&gt;&gt;textBoxTemplateDesc.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
   </data>
-  <data name="&gt;&gt;labelTextureAltFilename.Type" xml:space="preserve">
+  <data name="treeViewTemplateExplorer.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="labelTextureTitle.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelTextureAltFilename.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
+  <data name="buttonCreateFolderSettings.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;labelTextureAltFilename.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="listViewEditTemplate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="checkTextureDisplay.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="buttonCreateTemplate.Text" xml:space="preserve">
+    <value>Create Template</value>
   </data>
-  <data name="checkTextureDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="labelFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
   </data>
-  <data name="checkTextureDisplay.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 59</value>
+  <data name="buttonAddTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="checkTextureDisplay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 17</value>
+  <data name="buttonAddTexture.Text" xml:space="preserve">
+    <value>Add Texture</value>
   </data>
-  <data name="checkTextureDisplay.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;groupTemplateMain.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="checkTextureDisplay.Text" xml:space="preserve">
-    <value>Display this texture</value>
+  <data name="&gt;&gt;groupFolderSettings.Name" xml:space="preserve">
+    <value>groupFolderSettings</value>
   </data>
-  <data name="checkTextureDisplay.ToolTip" xml:space="preserve">
-    <value>When previewing all the textures that the template
-has, do we show this texture?
-
-You can turn this off for identical textures as to not
-clog up the texture preview.</value>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
   </data>
-  <data name="&gt;&gt;checkTextureDisplay.Name" xml:space="preserve">
-    <value>checkTextureDisplay</value>
+  <data name="&gt;&gt;listViewEditTemplate.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaListView.kataraktaListView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;checkTextureDisplay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelTemplateFilename.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;checkTextureDisplay.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
+  <data name="textBoxTemplateFilename.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;checkTextureDisplay.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="labelTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
   </data>
-  <data name="textBoxTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 95</value>
+  <data name="labelTemplateTitle.Text" xml:space="preserve">
+    <value>Title:</value>
   </data>
-  <data name="textBoxTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
-  </data>
-  <data name="textBoxTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;textBoxTexturePackFilename.Name" xml:space="preserve">
-    <value>textBoxTexturePackFilename</value>
-  </data>
-  <data name="&gt;&gt;textBoxTexturePackFilename.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTexturePackFilename.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;textBoxTexturePackFilename.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="labelTexturePackFilename.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTexturePackFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 79</value>
-  </data>
-  <data name="labelTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 13</value>
-  </data>
-  <data name="labelTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="labelTexturePackFilename.Text" xml:space="preserve">
-    <value>Texture pack filename:</value>
+  <data name="groupTemplateMain.Text" xml:space="preserve">
+    <value>Template</value>
   </data>
   <data name="labelTexturePackFilename.ToolTip" xml:space="preserve">
     <value>For texture packs. The filename that graphics
@@ -813,407 +962,36 @@ This is done in order to let you use texture packs on
 different games and ROM hacks, whose names
 could be different from “SUPER MARIO 64.”</value>
   </data>
-  <data name="&gt;&gt;labelTexturePackFilename.Name" xml:space="preserve">
-    <value>labelTexturePackFilename</value>
-  </data>
-  <data name="&gt;&gt;labelTexturePackFilename.Type" xml:space="preserve">
+  <data name="&gt;&gt;labelTemplateFilename.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;labelTexturePackFilename.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTemplateManager</value>
   </data>
-  <data name="&gt;&gt;labelTexturePackFilename.ZOrder" xml:space="preserve">
+  <data name="labelTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="textBoxTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 32</value>
+  <data name="labelTextureFormat.Text" xml:space="preserve">
+    <value>Pixel format (RAM):</value>
   </data>
-  <data name="textBoxTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 20</value>
+  <data name="textBoxTextureAltFilename.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="textBoxTextureTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureTitle.Name" xml:space="preserve">
-    <value>textBoxTextureTitle</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureTitle.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;textBoxTextureTitle.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="labelTextureTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTextureTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="labelTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 13</value>
-  </data>
-  <data name="labelTextureTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelTextureTitle.Text" xml:space="preserve">
-    <value>Title:</value>
-  </data>
-  <data name="labelTextureTitle.ToolTip" xml:space="preserve">
-    <value>The title for the texture.</value>
-  </data>
-  <data name="&gt;&gt;labelTextureTitle.Name" xml:space="preserve">
-    <value>labelTextureTitle</value>
-  </data>
-  <data name="&gt;&gt;labelTextureTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelTextureTitle.Parent" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;labelTextureTitle.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="groupTemplateItems.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupTemplateItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 155</value>
-  </data>
-  <data name="groupTemplateItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 214</value>
-  </data>
-  <data name="groupTemplateItems.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupTemplateItems.Text" xml:space="preserve">
-    <value>Template texture</value>
+  <data name="buttonAddTexture.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="&gt;&gt;groupTemplateItems.Name" xml:space="preserve">
-    <value>groupTemplateItems</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateItems.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupTemplateItems.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 16</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 13</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.Text" xml:space="preserve">
-    <value>Template to use:</value>
-  </data>
-  <data name="labelFolderSettingsTemplateUsed.ToolTip" xml:space="preserve">
-    <value>Select the template that will be used to identify
-textures inside this folder.</value>
-  </data>
-  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Name" xml:space="preserve">
-    <value>labelFolderSettingsTemplateUsed</value>
-  </data>
-  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Parent" xml:space="preserve">
-    <value>groupFolderSettings</value>
-  </data>
-  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 59</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 17</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.Text" xml:space="preserve">
-    <value>Cover subfolders</value>
-  </data>
-  <data name="checkFolderSettingsCoverSubfolders.ToolTip" xml:space="preserve">
-    <value>Whether these Folder Settings will apply across every subfolder of this folder.
-
-Example:
-Suppose you have three folders with textures in them:
-• Eyes\Angry\
-• Eyes\Angry\Very Angry\
-• Eyes\Angry\Extremely Angry\
-
-Notice how “Very Angry” and “Extremely Angry” are subfolders of “Angry.” If you
-were to create Folder Settings for “Angry” and turn this option on, then the template
-used for “Angry” will apply for “Very Angry” and “Extremely Angry” as well.</value>
-  </data>
-  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Name" xml:space="preserve">
-    <value>checkFolderSettingsCoverSubfolders</value>
-  </data>
-  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Parent" xml:space="preserve">
-    <value>groupFolderSettings</value>
-  </data>
-  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="buttonSave.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="buttonSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>273, 375</value>
-  </data>
-  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 23</value>
-  </data>
-  <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="buttonSave.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
-    <value>buttonSave</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="buttonAddTexture.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="buttonAddTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonAddTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 375</value>
-  </data>
-  <data name="buttonAddTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 23</value>
-  </data>
-  <data name="buttonAddTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="buttonAddTexture.Text" xml:space="preserve">
-    <value>Add Texture</value>
-  </data>
-  <data name="&gt;&gt;buttonAddTexture.Name" xml:space="preserve">
-    <value>buttonAddTexture</value>
-  </data>
-  <data name="&gt;&gt;buttonAddTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonAddTexture.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonAddTexture.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="buttonRemoveTexture.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="labelTemplateFilename.ToolTip" xml:space="preserve">
+    <value>The filename of the template. You don't need to
+write “.json” at the end.</value>
   </data>
   <data name="buttonRemoveTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="buttonRemoveTexture.Location" type="System.Drawing.Point, System.Drawing">
-    <value>155, 375</value>
-  </data>
-  <data name="buttonRemoveTexture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 23</value>
-  </data>
-  <data name="buttonRemoveTexture.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="buttonRemoveTexture.Text" xml:space="preserve">
-    <value>Remove Texture</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveTexture.Name" xml:space="preserve">
-    <value>buttonRemoveTexture</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveTexture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveTexture.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonRemoveTexture.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="buttonCreateFolderSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="buttonCreateFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 12</value>
-  </data>
-  <data name="buttonCreateFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 23</value>
-  </data>
-  <data name="buttonCreateFolderSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="buttonCreateFolderSettings.Text" xml:space="preserve">
-    <value>Create Folder Settings</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateFolderSettings.Name" xml:space="preserve">
-    <value>buttonCreateFolderSettings</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateFolderSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateFolderSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateFolderSettings.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="buttonCreateTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="buttonCreateTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="buttonCreateTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="buttonCreateTemplate.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="buttonCreateTemplate.Text" xml:space="preserve">
-    <value>Create Template</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateTemplate.Name" xml:space="preserve">
-    <value>buttonCreateTemplate</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateTemplate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateTemplate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;buttonCreateTemplate.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="comboFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 32</value>
-  </data>
-  <data name="comboFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 21</value>
-  </data>
-  <data name="comboFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Name" xml:space="preserve">
-    <value>comboFolderSettingsTemplateUsed</value>
-  </data>
-  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Parent" xml:space="preserve">
-    <value>groupFolderSettings</value>
-  </data>
-  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="groupFolderSettings.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="groupFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 13</value>
-  </data>
-  <data name="groupFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 83</value>
-  </data>
-  <data name="groupFolderSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="groupFolderSettings.Text" xml:space="preserve">
-    <value>Folder Settings</value>
-  </data>
-  <data name="&gt;&gt;groupFolderSettings.Name" xml:space="preserve">
-    <value>groupFolderSettings</value>
-  </data>
-  <data name="&gt;&gt;groupFolderSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupFolderSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupFolderSettings.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="labelSelectSomething.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelSelectSomething.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="labelSelectSomething.Location" type="System.Drawing.Point, System.Drawing">
-    <value>573, 107</value>
-  </data>
-  <data name="labelSelectSomething.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 26</value>
-  </data>
-  <data name="labelSelectSomething.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="labelSelectSomething.Text" xml:space="preserve">
-    <value>Select a Folder Settings file or a template file
-to show their properties that can be modified.</value>
-  </data>
-  <data name="&gt;&gt;labelSelectSomething.Name" xml:space="preserve">
-    <value>labelSelectSomething</value>
-  </data>
-  <data name="&gt;&gt;labelSelectSomething.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelSelectSomething.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelSelectSomething.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>566, 411</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1371,28 +1149,322 @@ to show their properties that can be modified.</value>
         AAA=
 </value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterParent</value>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Template Manager</value>
+  <data name="labelTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Name" xml:space="preserve">
+    <value>textBoxTextureAltFilename</value>
+  </data>
+  <data name="checkTextureDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
   </data>
   <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
     <value>imageList1</value>
   </data>
-  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBoxTemplateFilename.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 13</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxTextureTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
+  </data>
+  <data name="labelTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="buttonRemoveTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.Name" xml:space="preserve">
+    <value>listViewEditTemplate</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="textBoxTextureSegAddr.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Name" xml:space="preserve">
+    <value>labelTemplateDesc</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="textBoxTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmTemplateManager</value>
+  <data name="comboTextureFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Template Manager</value>
+  </data>
+  <data name="textBoxTemplateDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkTextureDisplay.Text" xml:space="preserve">
+    <value>Display this texture</value>
+  </data>
+  <data name="labelTextureTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Name" xml:space="preserve">
+    <value>treeViewTemplateExplorer</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="checkTextureDisplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="labelTexturePackFilename.Text" xml:space="preserve">
+    <value>Texture pack filename:</value>
+  </data>
+  <data name="labelTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 118</value>
+  </data>
+  <data name="buttonAddTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkTextureDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="comboTextureFormat.Items4" xml:space="preserve">
+    <value>RGBA16</value>
+  </data>
+  <data name="groupFolderSettings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="labelTextureTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelSelectSomething.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 26</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="labelTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonRemoveTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 375</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Text" xml:space="preserve">
+    <value>Cover subfolders</value>
+  </data>
+  <data name="buttonRemoveTexture.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="listViewEditTemplate.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labelTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupTemplateItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 214</value>
+  </data>
+  <data name="textBoxTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="buttonCreateFolderSettings.Text" xml:space="preserve">
+    <value>Create Folder Settings</value>
+  </data>
+  <data name="labelTextureAltFilename.Text" xml:space="preserve">
+    <value>Alternative filename:</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.Name" xml:space="preserve">
+    <value>labelTemplateFilename</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Name" xml:space="preserve">
+    <value>buttonAddTexture</value>
+  </data>
+  <data name="checkTextureDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 59</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkTextureDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Name" xml:space="preserve">
+    <value>labelSelectSomething</value>
+  </data>
+  <data name="textBoxTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="labelTemplateTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Name" xml:space="preserve">
+    <value>buttonRemoveTexture</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeViewTemplateExplorer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 182</value>
+  </data>
+  <data name="labelTextureTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="comboTextureFormat.Items5" xml:space="preserve">
+    <value>IA16</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="textBoxTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

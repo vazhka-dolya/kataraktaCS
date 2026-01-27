@@ -122,7 +122,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
-        FQAAAk1TRnQBSQFMAgEBBAEAAUgBAwFIAQMBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        FQAAAk1TRnQBSQFMAgEBBAEAAVABAwFQAQMBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAnAAF7AdwB9QH/
         AVIB0gHxAf8BQgG1AdEB/wE6AZ8BuAH/ATYBlAGsAf8BNQGRAagB/wE1AZABpwH/ATUBkAGnAf8BNAGP
         AaUB/wEzAYwBogH/ATEBhQGaAf8BLAF5AY0B/wEqAXMBhQH/AS8BggGXAf8IAAGJAY8BNQH/AW8BdgEH
@@ -330,7 +330,7 @@
     <value>157, 13</value>
   </data>
   <data name="labelTexturePackFilename.Text" xml:space="preserve">
-    <value>Имя файла для текстур-пака.</value>
+    <value>Имя файла для текстур-пака:</value>
   </data>
   <data name="labelTexturePackFilename.ToolTip" xml:space="preserve">
     <value>Для текстур-паков. Имя файла, используемое
