@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 488</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>183, 23</value>
+  </data>
+  <data name="buttonClose.Text" xml:space="preserve">
+    <value>Закрыть без применения</value>
+  </data>
+  <data name="buttonApply.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 488</value>
+  </data>
+  <data name="buttonApply.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="buttonApplyAndClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 488</value>
+  </data>
+  <data name="buttonApplyAndClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 23</value>
+  </data>
+  <data name="buttonApplyAndClose.Text" xml:space="preserve">
+    <value>Применить и закрыть</value>
+  </data>
+  <data name="checkTreeViewSimplified.Size" type="System.Drawing.Size, System.Drawing">
+    <value>287, 17</value>
+  </data>
+  <data name="checkTreeViewSimplified.Text" xml:space="preserve">
+    <value>Использовать упрощённую версию списка текстур</value>
+  </data>
+  <data name="checkTreeViewSimplified.ToolTip" xml:space="preserve">
+    <value>Если стандартный список текстур вызывает у Вас
+проблемы (например, артефакты или лаги), то
+попробуйте включить данную опцию.
+
+Подробное объяснение:
+Стандартный список текстур использует много
+пользовательского кода, чтобы выглядеть лучше,
+но из-за этого он для некоторых людей может
+быть лагучим или нестабильным. Упрощённая
+версия не использует никакого пользовательского
+кода и пытается уместиться в ограничения
+WinForms.</value>
+  </data>
+  <data name="checkTreeViewDisplayIcons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="checkTreeViewDisplayIcons.Text" xml:space="preserve">
+    <value>Отображать иконки текстур</value>
+  </data>
+  <data name="checkTreeViewDisplayIcons.ToolTip" xml:space="preserve">
+    <value>Меньше лага, если выключить.</value>
+  </data>
+  <data name="checkTreeViewDisplayCache.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 17</value>
+  </data>
+  <data name="checkTreeViewDisplayCache.Text" xml:space="preserve">
+    <value>Показывать, кэширована ли текстура для ОЗУ</value>
+  </data>
+  <data name="checkTreeViewDisplayCache.ToolTip" xml:space="preserve">
+    <value>kataraktaCS автоматически сохраняет
+специальные кэш-файлы, хранящие в себе
+заранее обработанные данные текстур, чтобы
+ускорить применение в ОЗУ (после каждого
+применения кэш также обновляется).
+
+Данная опция показывает небольшой значок
+дискеты возле текстур, у которых был создан
+кэш для ОЗУ.</value>
+  </data>
+  <data name="checkDisplayCacheOnRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 17</value>
+  </data>
+  <data name="checkDisplayCacheOnRight.Text" xml:space="preserve">
+    <value>Отображать иконку кэша справа (только для обычного списка текстур)</value>
+  </data>
+  <data name="checkDisplayCacheOnRight.ToolTip" xml:space="preserve">
+    <value>Помещает иконку кэша (в стандартном, не
+упрощённом списке) справа в конце.</value>
+  </data>
+  <data name="labelHiResPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 13</value>
+  </data>
+  <data name="labelHiResPath.Text" xml:space="preserve">
+    <value>Hi-res-папка эмулятора:</value>
+  </data>
+  <data name="labelHiResPath.ToolTip" xml:space="preserve">
+    <value>Это путь папки в Вашем эмуляторе, которая хранит
+«hi-res»-текстуры, используемые графическим
+плагином для замены оригинальных текстур в игре.
+
+Этот путь обычно выглядит так:
+[Путь к Вашему эмулятору]\Plugin\GFX\hires_texture\
+или
+[Путь к Вашему эмулятору]\Plugin\hires_texture\
+(Вы можете сами создать папку «hires_texture», если её
+у Вас нет)
+
+Учтите, что kataraktaCS будет автоматически удалять
+любые «Cache.ini»-файлы, создаваемые некоторыми
+графическими плагинами, ибо эти файлы могут
+вызывать проблемы.</value>
+  </data>
+  <data name="labelOtherGames.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="labelOtherGames.Text" xml:space="preserve">
+    <value>Дополнительные игры:</value>
+  </data>
+  <data name="labelOtherGames.ToolTip" xml:space="preserve">
+    <value>Игры, которые появятся в виде дополнительных
+опций возле кнопки «Текстур-пак». Вы можете
+это использовать для ROM-хаков и других игр.
+
+Учтите, что у названия окна Project64 не всегда
+верное внутреннее название игры. Самый
+быстрый способ узнать точное название игры —
+запустить её в Project64, зайти в «Файл» -&gt;
+«Информация об игре…» и посмотреть на
+«Название ROM'а», где будет указано название,
+которое Вам нужно сюда добавить. Например,
+внутреннее название Марио Карт 64 —
+«MARIOKART64».</value>
+  </data>
+  <data name="labelTexturePackMainGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="labelTexturePackMainGame.Text" xml:space="preserve">
+    <value>Название основной игры:</value>
+  </data>
+  <data name="labelTexturePackMainGame.ToolTip" xml:space="preserve">
+    <value>Игра, на которую будут применены текстуры
+при нажатии кнопки «Текстур-пак».
+Внутреннее название у обычного Супер
+Марио 64 — «SUPER MARIO 64».</value>
+  </data>
+  <data name="tabGeneral.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="groupTexturePack.Text" xml:space="preserve">
+    <value>Текстур-паки</value>
+  </data>
+  <data name="buttonAddGame.Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="buttonRemoveSelected.Text" xml:space="preserve">
+    <value>Удалить выбранную</value>
+  </data>
+  <data name="groupMisc.Text" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="groupBackgroundColor.Text" xml:space="preserve">
+    <value>Фон текстур</value>
+  </data>
+  <data name="buttonResetBackgroundColor.Text" xml:space="preserve">
+    <value>Сбросить на цвет по умолчанию</value>
+  </data>
+  <data name="checkStayOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 17</value>
+  </data>
+  <data name="checkStayOnTop.Text" xml:space="preserve">
+    <value>Включать «Всегда сверху» при запуске</value>
+  </data>
+  <data name="groupTreeView.Text" xml:space="preserve">
+    <value>Настройки списка текстур</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACfn5//n5+f/5+fn/+fn5//AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAn5+f/wAAAAAAAAAAn5+f/2BgYP9gYGD/n5+f/wAAAAAAAAAAn5+f/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAn5+f/2BgYP+fn5//n5+f/2BgYP9gYGD/YGBg/2BgYP+fn5//n5+f/2Bg
+        YP+fn5//AAAAAAAAAAAAAAAAn5+f/2BgYP9gYGD/YGBg/2BgYP9gYGD/YGBg/2BgYP9gYGD/YGBg/2Bg
+        YP9gYGD/YGBg/5+fn/8AAAAAAAAAAAAAAACfn5//YGBg/2BgYP9gYGD/YGBg/09PT/9PT0//YGBg/2Bg
+        YP9gYGD/YGBg/5+fn/8AAAAAAAAAAAAAAAAAAAAAn5+f/2BgYP9gYGD/YGBg/09PT//Nzc3/zc3N/09P
+        T/9gYGD/YGBg/2BgYP+fn5//AAAAAAAAAADExMT/xMTE/2BgYP9gYGD/YGBg/09PT//Nzc3/ra2t/62t
+        rf/Nzc3/T09P/2BgYP9gYGD/YGBg/5+fn/+fn5//xMTE/2BgYP9gYGD/YGBg/2NjY//Nzc3/ra2t/62t
+        rf+tra3/ra2t/83Nzf9jY2P/YGBg/2BgYP9gYGD/n5+f/83Nzf94eHj/eHh4/3h4eP9jY2P/zc3N/62t
+        rf+tra3/ra2t/62trf/Nzc3/Y2Nj/3h4eP94eHj/eHh4/62trf/Nzc3/zc3N/3h4eP94eHj/eHh4/2Nj
+        Y//Nzc3/ra2t/62trf/Nzc3/Y2Nj/3h4eP94eHj/eHh4/62trf+tra3/AAAAAAAAAADNzc3/eHh4/3h4
+        eP94eHj/Y2Nj/83Nzf/Nzc3/Y2Nj/3h4eP94eHj/eHh4/83Nzf8AAAAAAAAAAAAAAAAAAAAAzc3N/3h4
+        eP94eHj/eHh4/3h4eP9jY2P/Y2Nj/3h4eP94eHj/eHh4/3h4eP/Nzc3/AAAAAAAAAAAAAAAAzc3N/3h4
+        eP94eHj/eHh4/3h4eP94eHj/eHh4/3h4eP94eHj/eHh4/3h4eP94eHj/eHh4/83Nzf8AAAAAAAAAAAAA
+        AADNzc3/eHh4/83Nzf/Nzc3/eHh4/3h4eP94eHj/eHh4/83Nzf/Nzc3/eHh4/83Nzf8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAM3Nzf8AAAAAAAAAAM3Nzf94eHj/eHh4/83Nzf8AAAAAAAAAAM3Nzf8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNzc3/zc3N/83Nzf/Nzc3/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/D8AAOw3AADAAwAAgAEAAMADAADAAwAAAAAAAAAAAAAAAAAAAAAAAMADAADAAwAAgAEAAMAD
+        AADsNwAA/D8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+</root>

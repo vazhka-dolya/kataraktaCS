@@ -1,0 +1,1340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitMenuAndRest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;contextCacheGenSelectedAndSub.Name" xml:space="preserve">
+    <value>contextCacheGenSelectedAndSub</value>
+  </data>
+  <data name="contextHotkeyAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyRemove.Name" xml:space="preserve">
+    <value>contextHotkeyRemove</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeView1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="MenuFLP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ToolApplyTP.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuFLP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ToolApplyTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="toolStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitMenuAndRest.SplitterDistance" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="menuOpenKataraktaCSFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="splitMainAndTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBorders.Name" xml:space="preserve">
+    <value>contextRemoveBorders</value>
+  </data>
+  <data name="menuUpdatesRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 19</value>
+  </data>
+  <data name="&gt;&gt;menuOpenTemplateManager.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="flowLayoutPanel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;contextCacheClearSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 220</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="treeView1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contextCacheClearSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="&gt;&gt;SeparatorRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextHotkeyAdd.Text" xml:space="preserve">
+    <value>Add Hotkey (RAM-only)</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImageList.Name" xml:space="preserve">
+    <value>ImageList</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitMainAndTexture.SplitterDistance" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;contextCacheGenSelected.Name" xml:space="preserve">
+    <value>contextCacheGenSelected</value>
+  </data>
+  <data name="ToolApplyRAM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Parent" xml:space="preserve">
+    <value>splitTextureListAndView.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel1.Name" xml:space="preserve">
+    <value>splitMenuAndRest.Panel1</value>
+  </data>
+  <data name="menuAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 19</value>
+  </data>
+  <data name="&gt;&gt;SeparatorTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFLP.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ToolApplyRAM.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;contextShowInExplorer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel2.Parent" xml:space="preserve">
+    <value>splitMenuAndRest</value>
+  </data>
+  <data name="&gt;&gt;ToolRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuOpenTemplateManager.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="&gt;&gt;contextCacheGenSelectedAndSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextMenu.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitMenuAndRest.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;contextShowInExplorer.Name" xml:space="preserve">
+    <value>contextShowInExplorer</value>
+  </data>
+  <data name="ToolSearchButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="menuUpdates.Text" xml:space="preserve">
+    <value>Checking…</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Name" xml:space="preserve">
+    <value>splitTextureListAndView</value>
+  </data>
+  <data name="menuUtilities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
+    <value>contextMenu</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextCacheClearSelectedAndSub.Name" xml:space="preserve">
+    <value>contextCacheClearSelectedAndSub</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBordersSelectedAndSub.Name" xml:space="preserve">
+    <value>contextRemoveBordersSelectedAndSub</value>
+  </data>
+  <data name="splitTextureListAndView.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;contextSwapTemplates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flowLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownApplyTPOther.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="TextureList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;TextureList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;SeparatorHotkeys.Name" xml:space="preserve">
+    <value>SeparatorHotkeys</value>
+  </data>
+  <data name="&gt;&gt;menuUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>splitRestAndTools.Panel2</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>445, 428</value>
+  </data>
+  <data name="&gt;&gt;menuStayOnTop.Name" xml:space="preserve">
+    <value>menuStayOnTop</value>
+  </data>
+  <data name="&gt;&gt;menuUpdatesRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuConvertTemplates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyAdd.Name" xml:space="preserve">
+    <value>contextHotkeyAdd</value>
+  </data>
+  <data name="contextMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;DropDownApplyTPOther.Name" xml:space="preserve">
+    <value>DropDownApplyTPOther</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolApplyTP.Text" xml:space="preserve">
+    <value>Apply TP</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBordersSelectedAndSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolRefresh.Name" xml:space="preserve">
+    <value>ToolRefresh</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextCache.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuFLP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 23</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SeparatorGenerateCache.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparatorTP.Name" xml:space="preserve">
+    <value>SeparatorTP</value>
+  </data>
+  <data name="TextureList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 468</value>
+  </data>
+  <data name="&gt;&gt;menuAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextHotkeyEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaToolStrip.kataraktaToolStrip, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitRestAndTools.SplitterDistance" type="System.Int32, mscorlib">
+    <value>369</value>
+  </data>
+  <data name="&gt;&gt;ToolSearchButton.Name" xml:space="preserve">
+    <value>ToolSearchButton</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuUpdatesRefresh.Name" xml:space="preserve">
+    <value>menuUpdatesRefresh</value>
+  </data>
+  <data name="MenuFLP.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="treeView1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitRestAndTools.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DropDownApplyTPOther.ToolTipText" xml:space="preserve">
+    <value>Apply texture pack with a different filename</value>
+  </data>
+  <data name="treeView1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 338</value>
+  </data>
+  <data name="menuOptions.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="&gt;&gt;contextCacheClearSelectedAndSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitMainAndTexture.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 6</value>
+  </data>
+  <data name="contextApplyTexture.Text" xml:space="preserve">
+    <value>Apply in RAM</value>
+  </data>
+  <data name="splitMainAndTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 369</value>
+  </data>
+  <data name="&gt;&gt;menuStayOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextRemoveBorders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="&gt;&gt;contextCacheGenSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitTextureListAndView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolRefresh.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="splitRestAndTools.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ToolApplyTP.Name" xml:space="preserve">
+    <value>ToolApplyTP</value>
+  </data>
+  <data name="TextureList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 6</value>
+  </data>
+  <data name="contextHotkeyRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="contextCacheGenSelectedAndSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="splitMainAndTexture.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;SeparatorUtilities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="flowLayoutPanel1.WrapContents" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolApplyTP.ToolTipText" xml:space="preserve">
+    <value>Apply as a texture pack</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel1.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="contextRemoveBordersSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 22</value>
+  </data>
+  <data name="&gt;&gt;SeparatorApply.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Parent" xml:space="preserve">
+    <value>splitMainAndTexture.Panel2</value>
+  </data>
+  <data name="contextRemoveBordersSelectedAndSub.Text" xml:space="preserve">
+    <value>For Selected Textures &amp;&amp; Subfolders</value>
+  </data>
+  <data name="SeparatorUtilities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel1.Parent" xml:space="preserve">
+    <value>splitMainAndTexture</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel1.Parent" xml:space="preserve">
+    <value>splitRestAndTools</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="contextCacheGenSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel1.Parent" xml:space="preserve">
+    <value>splitMenuAndRest</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel2.Name" xml:space="preserve">
+    <value>splitMenuAndRest.Panel2</value>
+  </data>
+  <data name="contextShowInExplorer.Text" xml:space="preserve">
+    <value>Show in Explorer</value>
+  </data>
+  <data name="menuConvertTemplates.ToolTipText" xml:space="preserve">
+    <value>Pre-release versions of kataraktaCS had different
+structures for their templates and folder settings.
+This option will convert any found old templates
+and folder settings to the new structure.</value>
+  </data>
+  <data name="&gt;&gt;ToolApplyRAM.Name" xml:space="preserve">
+    <value>ToolApplyRAM</value>
+  </data>
+  <data name="&gt;&gt;DropDownApplyTPOther.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ImageList.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Name" xml:space="preserve">
+    <value>splitRestAndTools</value>
+  </data>
+  <data name="splitMenuAndRest.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel2.Name" xml:space="preserve">
+    <value>splitTextureListAndView.Panel2</value>
+  </data>
+  <data name="menuConvertTemplates.Text" xml:space="preserve">
+    <value>Convert Old Templates &amp;&amp; Folder Settings</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="contextShowInExplorer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitMainAndTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="contextRemoveBorders.Text" xml:space="preserve">
+    <value>Fix Texture Borders</value>
+  </data>
+  <data name="&gt;&gt;menuUtilities.Name" xml:space="preserve">
+    <value>menuUtilities</value>
+  </data>
+  <data name="contextRemoveBordersSelectedAndSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 22</value>
+  </data>
+  <data name="SeparatorApply.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="&gt;&gt;contextEditTemplates.Name" xml:space="preserve">
+    <value>contextEditTemplates</value>
+  </data>
+  <data name="&gt;&gt;contextCache.Name" xml:space="preserve">
+    <value>contextCache</value>
+  </data>
+  <data name="splitMenuAndRest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ToolSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolApplyRAM.ToolTipText" xml:space="preserve">
+    <value>Apply in RAM</value>
+  </data>
+  <data name="menuOpenQuad64.Text" xml:space="preserve">
+    <value>Open Texture Search</value>
+  </data>
+  <data name="ToolSearch.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="ToolSearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 21</value>
+  </data>
+  <data name="DropDownApplyTPOther.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="&gt;&gt;contextSwapTemplates.Name" xml:space="preserve">
+    <value>contextSwapTemplates</value>
+  </data>
+  <data name="&gt;&gt;menuUtilities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuOpenQuad64.Name" xml:space="preserve">
+    <value>menuOpenQuad64</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextCacheClearSelectedAndSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 22</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitMainAndTexture.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;contextApplyTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Parent" xml:space="preserve">
+    <value>splitMenuAndRest.Panel2</value>
+  </data>
+  <data name="SeparatorGenerateCache.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 6</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Parent" xml:space="preserve">
+    <value>splitRestAndTools.Panel1</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="SeparatorRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
+    <value>treeView1</value>
+  </data>
+  <data name="&gt;&gt;MenuFLP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuOpenKataraktaCSFolder.Text" xml:space="preserve">
+    <value>Open kataraktaCS Folder</value>
+  </data>
+  <data name="&gt;&gt;TextureList.Name" xml:space="preserve">
+    <value>TextureList</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel1.Name" xml:space="preserve">
+    <value>splitRestAndTools.Panel1</value>
+  </data>
+  <data name="DropDownApplyTPOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 21</value>
+  </data>
+  <data name="menuSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="contextCacheClearSelectedAndSub.Text" xml:space="preserve">
+    <value>Clear from Selected Textures &amp;&amp; Subfolders</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel2.Parent" xml:space="preserve">
+    <value>splitRestAndTools</value>
+  </data>
+  <data name="contextCache.Text" xml:space="preserve">
+    <value>Cache</value>
+  </data>
+  <data name="menuStayOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="menuConvertTemplates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 22</value>
+  </data>
+  <data name="contextRemoveBorders.ToolTipText" xml:space="preserve">
+    <value>This option fixes incorrect borders that you may have
+seen some textures have, e.g. black borders around
+eye textures.</value>
+  </data>
+  <data name="menuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;contextCacheClearSelected.Name" xml:space="preserve">
+    <value>contextCacheClearSelected</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>splitMenuAndRest.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel2.Name" xml:space="preserve">
+    <value>splitMainAndTexture.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SeparatorUtilities.Name" xml:space="preserve">
+    <value>SeparatorUtilities</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="splitRestAndTools.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitTextureListAndView.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="menuOpenTemplateManager.Text" xml:space="preserve">
+    <value>Open Template Manager</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyEdit.Name" xml:space="preserve">
+    <value>contextHotkeyEdit</value>
+  </data>
+  <data name="contextApplyTexture.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ToolApplyRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="treeView1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolRefresh.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="treeView1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="contextCacheClearSelected.Text" xml:space="preserve">
+    <value>Clear from Selected Textures</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitRestAndTools.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="SeparatorHotkeys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 6</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBordersSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>mainForm</value>
+  </data>
+  <data name="&gt;&gt;MenuFLP.Parent" xml:space="preserve">
+    <value>splitMainAndTexture.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SeparatorTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="&gt;&gt;menuSettings.Name" xml:space="preserve">
+    <value>menuSettings</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="menuStayOnTop.Text" xml:space="preserve">
+    <value>Stay on top</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="contextCache.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Ov+tcBz/BAIA/9TU1P9cXFz/CAgI/wAAAGwAAABiAAAAYgAAAEUAAAAZAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAALgAAAK0aGhr/6Ojo/+vr6//W1tb/ycnJ/7u7
+        u/+rq6v/pqal/9zX0f+5gi//6+vr/zw8PP8EBAT6AAAAVgAAAAoAAAAJAAAABgAAAAIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAANAAAAXQICAvwbGxv/Pj4+/1pa
+        Wv9nZ2f/n5+f//Dw8P/19fX/6+vr//Dw8P/d3d3/GRkZ/wAAAKMAAAAwAAAABAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAWAAAAXAAA
+        AJ4CAgLpBgYG/w8PD/8aGhr/JiYm/zQ0NP85OTn/Li4u/xYWFv8BAQH6AAAAWgAAAA0AAAABAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAIAAAAMAAAALAAAAFIAAABtAAAAggAAAJcAAACrAAAAugAAAMcBAQHPAAAAjwAAAFYAAAAUAAAAAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAEAAAACAAAAAwAAAARAAAAGAAAACQAAAAzAAAAPAAAADoAAAAkAAAACgAA
+        AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAQAAAAEAAAABAAA
+        AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////gf///wAz//4AAP/+AAB//gAAP/wAAB/8AAAf/AAAD/wAAA/8AAAP/AAAD/gA
+        AB/4AAA/+AAAH/gAAB/4AAAf+AAAH/gAAB/wAAAf8AAAP/AAAH/wAAD/8AAB//AAP//wAD//+AA///wA
+        f///gP////////////8oAAAAIAAAAEAAAAABAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEBAQ/xUV
+        Ff8XFxf/GBgY/xsbG/8aGhr/HBwc/y8cAv8qHQv/Jx8T/ykfEv8sJh7/NyEG/zshAf87Jw//IiIi/ycn
+        J/8uKyf/KCgo/yoqKv8tLS3/Li4u/zErJP8wLCf/NTIu/zExMf81NTX/ODg4/zs7O/8/Pz//QiYB/0Qn
+        Af9FKQL/RyoB/00tAv9PLwL/XTYC/143Av9YPRn/RjUh/2A5Av9iOgL/aj4D/21BBf9wQQP/cUID/3tJ
+        Bf9+SgP/QUFB/0NDQ/9ERET/R0dH/0lJSf9KSkr/TExM/09PT/9SSUD/UVFR/1VUU/9bW1v/XV1d/15e
+        Xv9nYl7/dmVP/2RkZP9mZmb/a2tr/21tbf9vb2//cG9v/3Fxcf93dHL/f3x6/4dPA/+FTwX/h1AE/4hQ
+        A/+MUgP/jlMD/49UA/+DWB7/kFUD/5FVA/+QVQX/lFcE/5VYA/+XWQT/mFoE/5pbBP+cXAT/nl0E/6Fe
+        BP+iXwT/o2AF/6NhBv+kYQX/pWEG/6ViBv+mYgX/pmIH/6ZiBv+lYwn/pmMI/6dkCf+nZQr/p2UM/6hl
+        C/+oZg3/qWcO/6loD/+paRH/qGkT/6ppEf+raxP/q2sU/6tsFf+sbRf/rG0Y/6xuGP+tbxv/rXAb/65x
+        Hv+vch7/pG8l/69zIP+tfDj/sXUk/7F2Jf+xdib/sngp/7N5Kv+yeiz/tHsu/7R8Lv+1fTH/tX4y/45v
+        Rv+SdlH/toA1/7mEO/+eglz/u4dB/7+SVf+hi2//t5Rl/72YZv/Bk1T/w5VW/8SYW//EmV7/x51j/8qi
+        a//LpW//z6t6/9Ctff+AgID/g4OD/4eDgP+EhIT/i4uL/4yJiP+NjIv/jo6O/5GRkf+SkpL/l5SS/5aW
+        lv+ZmZn/mpqa/5ybmv+fn5//qZqJ/6idk/+7qI7/u6yb/6Ghof+jo6P/paWl/6ekpP+np6f/q6ur/6ys
+        rP+3sar/vLWr/7Kysv+0tLP/tra1/7m5uf+7u7v/vb29/76+vv/TsYP/1bWK/9m8lf/avZb/27+a/8C2
+        qP/Bu7P/3MGd/8PAvf/Dwb7/xMC8/8XCvf/Gwrz/3cSh/93FpP/ZybT/38uw/97MtP/jz7P/wMDA/8PC
+        wP/CwsL/xMPC/8fHx//KxsD/yMfG/8zHwf/NycP/yMjI/8rKyv/My8r/zs3L/8zMzP/Nzc3/z8/P/9PP
+        yf/V0Mr/19LL/9vQwf/b0sX/39jP/9HR0f/T09P/1NTU/9bW1v/a2Nf/2dnZ/9ra2v/d3d3/3t7e/+TV
+        wf/n2cf/5N7V/+Df3f/h4N7/4+Lf/+Ti3v/g4OD/4uLi/+fn5//r5uD/6enp/+vr6//t7e3/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVGxoQBgEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAApP3v3buvmzUBAAADBQAAAAAAAAAAAAAAAAAAAAAAABr8qzpFo7nh/ZsQQe7u
+        PAUAAAAAAAAAAAAAAAAAAAAAQurOSighBwqh4ZzurKjrPQEAAAAAAAAAAAAAAAAAAACj2M1uV00vI0j5
+        648uCKjoOQAAAAAAAAAAAAAAAAAAA7THwnxlWk4jn+CMVU8tCbTWMgAAAAAAAAAAAAAAAAAQ0sqaeGdd
+        VCBHiFVbWU0qC764BgAAAAAAAAAAAAAAABrp2pR3aFxYHiZRW19fWlErOP0zAAAAAAAAAAAAAAAAMe/k
+        i3RnYlpJTFpcX2hpg5DE/BUAAAAAAAAAAAAAAABB6+WEcmdiYlxdXGNbb5Kt3d86AAAAAAAAAAAAAAAA
+        AKDcz4FwY2NiZF9iW0qJtu6oHQAAAAAAAAAAAAAAAAACs8fGfmxmX2NnY2JaLRS9vTIAAAAAAAAAAAAA
+        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
+        AAAAAAABAAAABAAAAAkAAAAPAAAADAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPB/
+        AADwDwAA4AcAAOADAADgAwAA4AMAAOAHAADAAwAAwAMAAMAHAADADwAAwB8AAMB/AADw/wAA//8AACgA
+        AAAQAAAAIAAAAAEACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABJLQb/Wkw4/25AA/9zQwP/b1c5/19T
+        Qv9gVEX/dGNO/3pnT/9jY2P/a2tr/3tvYP9zc3P/dHR0/3p6ev97e3v/gUwD/4RQCf+KUQP/kFUE/5la
+        BP+aWgT/m1sF/59dBP+aZBr/mmkm/5lsL/+ddD3/o2AF/6NhB/+kYAX/pGEF/6VhBf+kYgf/pWIH/6Zi
+        B/+mYwf/p2QJ/6dkCv+nZQr/pmUN/6ZmD/+oZw3/qWcO/6pqEv+sbRj/r3If/7J8MP+2fjL/iH9z/6yJ
+        Wf+7h0H/v49N/7mSW/+5lWP/wJFR/8KTVP/FmVz/yaBo/8ildP+Li4v/mI6D/5KSkf+Wlpb/mZiY/52c
+        m/+fn5//oqGh/6Ojo/+mpaP/paWl/6enp/+oqKj/qqqq/6+urf+yrqn/trCp/7q1r/+4t7X/v7qz/7u7
+        uv++vLr/ya+M/9K1jf/Nvab/wsLC/83Jxf/Szcb/1s7E/9HPzf/az8H/1dPQ/9TU0//j4d7/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACUlGSQwADgAAAAAAAAAAAD82AgBKTAhIAAAAAAAAAABJNigCPRgSAUAA
+        AAAAAAAAVRsmEBEeHRlHAAAAAAAAAVUuHR4eFjJOCQAAAAAAAAlOLR0mJhMGQgAAAAAAAAAOUiweGjUr
+        EAY+AAAAAAAAP0UlFwRWMikIPgAAAAAAAEk2KRYHVVw9PwAAAAAAAABVMi0WCgkPDwAAAAAAAAAAXEk9
+        Gw8BAAAAAAAAAAAAAAk8R1VQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        AADwfwAA8A8AAOAHAADgAwAA4AMAAOADAADgBwAAwAMAAMADAADABwAAwA8AAMAfAADAfwAA8P8AAP//
+        AAA=
+</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 23</value>
+  </data>
+  <data name="&gt;&gt;menuSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="DropDownApplyTPOther.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaTreeView.kataraktaTreeView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="splitTextureListAndView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitRestAndTools.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ToolSearch.Name" xml:space="preserve">
+    <value>ToolSearch</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="splitMenuAndRest.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;SeparatorRAM.Name" xml:space="preserve">
+    <value>SeparatorRAM</value>
+  </data>
+  <data name="treeView1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>splitTextureListAndView.Panel2</value>
+  </data>
+  <data name="&gt;&gt;SeparatorHotkeys.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuUpdatesRefresh.Text" xml:space="preserve">
+    <value>Check for Updates again</value>
+  </data>
+  <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="ToolApplyTP.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="splitTextureListAndView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="contextSwapTemplates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="splitMainAndTexture.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="menuAbout.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ToolApplyRAM.Text" xml:space="preserve">
+    <value>Apply RAM</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 338</value>
+  </data>
+  <data name="splitTextureListAndView.SplitterDistance" type="System.Int32, mscorlib">
+    <value>310</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="ToolApplyRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 21</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaMenuStrip.kataraktaMenuStrip, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="menuUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 19</value>
+  </data>
+  <data name="SeparatorApply.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="contextCacheGenSelectedAndSub.Text" xml:space="preserve">
+    <value>Generate for Selected Textures &amp;&amp; Subfolders</value>
+  </data>
+  <data name="contextEditTemplates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="ToolSearchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="treeView1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;menuOpenTemplateManager.Name" xml:space="preserve">
+    <value>menuOpenTemplateManager</value>
+  </data>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuOpenQuad64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 22</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>kataraktaCS</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuFLP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;menuOptions.Name" xml:space="preserve">
+    <value>menuOptions</value>
+  </data>
+  <data name="contextCacheGenSelected.Text" xml:space="preserve">
+    <value>Generate for Selected Textures</value>
+  </data>
+  <data name="contextEditTemplates.Text" xml:space="preserve">
+    <value>Open Template Manager</value>
+  </data>
+  <data name="splitTextureListAndView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 340</value>
+  </data>
+  <data name="contextRemoveBordersSelected.Text" xml:space="preserve">
+    <value>For Selected Textures</value>
+  </data>
+  <data name="splitTextureListAndView.Panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;menuOpenQuad64.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ToolApplyTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
+  </data>
+  <data name="&gt;&gt;menuOpenKataraktaCSFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="MenuFLP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="splitRestAndTools.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ImageList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparatorGenerateCache.Name" xml:space="preserve">
+    <value>SeparatorGenerateCache</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Name" xml:space="preserve">
+    <value>splitMainAndTexture</value>
+  </data>
+  <data name="&gt;&gt;ToolSearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuFLP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;menuConvertTemplates.Name" xml:space="preserve">
+    <value>menuConvertTemplates</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel1.Name" xml:space="preserve">
+    <value>splitTextureListAndView.Panel1</value>
+  </data>
+  <data name="splitMainAndTexture.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;contextHotkeyAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitRestAndTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 399</value>
+  </data>
+  <data name="MenuFLP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TextureList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 24</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBordersSelected.Name" xml:space="preserve">
+    <value>contextRemoveBordersSelected</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="splitMenuAndRest.Panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel1.Name" xml:space="preserve">
+    <value>splitMainAndTexture.Panel1</value>
+  </data>
+  <data name="&gt;&gt;contextEditTemplates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitMenuAndRest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 428</value>
+  </data>
+  <data name="&gt;&gt;menuUpdates.Name" xml:space="preserve">
+    <value>menuUpdates</value>
+  </data>
+  <data name="&gt;&gt;menuAbout.Name" xml:space="preserve">
+    <value>menuAbout</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TextureList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ToolApplyTP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
+        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
+        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
+        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
+        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
+        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
+        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
+        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="splitRestAndTools.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="contextApplyTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 22</value>
+  </data>
+  <data name="menuUtilities.Text" xml:space="preserve">
+    <value>Utilities</value>
+  </data>
+  <data name="contextHotkeyRemove.Text" xml:space="preserve">
+    <value>Remove Hotkey (RAM-only)</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel2.Parent" xml:space="preserve">
+    <value>splitTextureListAndView</value>
+  </data>
+  <data name="ToolRefresh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 21</value>
+  </data>
+  <data name="splitMenuAndRest.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel1.Parent" xml:space="preserve">
+    <value>splitTextureListAndView</value>
+  </data>
+  <data name="&gt;&gt;menuOpenKataraktaCSFolder.Name" xml:space="preserve">
+    <value>menuOpenKataraktaCSFolder</value>
+  </data>
+  <data name="treeView1.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitRestAndTools.Panel2.Name" xml:space="preserve">
+    <value>splitRestAndTools.Panel2</value>
+  </data>
+  <data name="contextHotkeyEdit.Text" xml:space="preserve">
+    <value>Edit Hotkey (RAM-only)</value>
+  </data>
+  <data name="&gt;&gt;contextApplyTexture.Name" xml:space="preserve">
+    <value>contextApplyTexture</value>
+  </data>
+  <data name="&gt;&gt;SeparatorApply.Name" xml:space="preserve">
+    <value>SeparatorApply</value>
+  </data>
+  <data name="&gt;&gt;contextRemoveBorders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ToolSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 24</value>
+  </data>
+  <data name="&gt;&gt;splitTextureListAndView.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;MenuFLP.Name" xml:space="preserve">
+    <value>MenuFLP</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitMainAndTexture.Panel2.Parent" xml:space="preserve">
+    <value>splitMainAndTexture</value>
+  </data>
+  <data name="contextSwapTemplates.Text" xml:space="preserve">
+    <value>Quick Swap Templates</value>
+  </data>
+  <data name="&gt;&gt;splitMenuAndRest.Name" xml:space="preserve">
+    <value>splitMenuAndRest</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 12</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>853, 14</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>526, 14</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>631, 14</value>
+  </metadata>
+  <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>728, 14</value>
+  </metadata>
+</root>

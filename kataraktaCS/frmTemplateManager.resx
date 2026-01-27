@@ -1,0 +1,1398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="treeViewTemplateExplorer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="treeViewTemplateExplorer.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAADe
+        FQAAAk1TRnQBSQFMAgEBBAEAAeQBAwHkAQMBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wAnAAF7AdwB9QH/
+        AVIB0gHxAf8BQgG1AdEB/wE6AZ8BuAH/ATYBlAGsAf8BNQGRAagB/wE1AZABpwH/ATUBkAGnAf8BNAGP
+        AaUB/wEzAYwBogH/ATEBhQGaAf8BLAF5AY0B/wEqAXMBhQH/AS8BggGXAf8IAAGJAY8BNQH/AW8BdgEH
+        Af8BYAFmAQAB/wFWAVwBAAH/AVMBWAEAAf8BUAFWAQAB/wFRAVYBAAH/AVEBVgEAAf8BTwFVAQAB/wFP
+        AVQBAAH/AUwBUQEAAf8BRwFMAQAB/wFEAUkBAAH/AUsBUAEAAf8IAAGPAW4BNQH/AXYBTQEHAf8BZgFA
+        AQAB/wFcAToBAAH/AVgBNwEAAf8BVgE3AQAB/wFWATYBAAH/AVYBNgEAAf8BVQE2AQAB/wFUATUBAAH/
+        AVEBMwEAAf8BTAEwAQAB/wFJAS4BAAH/AVABMgEAAf8IAAT/A9wB/wO9Af8DsAH/A6oB/wOpAf8DpwH/
+        A6cB/wOnAf8DpQH/A6EB/wOaAf8DlgH/A58B/wgAAYAB3gH1Af8BbgHYAfMB/wFtAdcB8wH/AWsB1QHz
+        Af8BagHTAfEB/wFpAdIB8AH/AWcB0QHwAf8BZgHQAe8B/wFlAc4B7wH/AWMBzQHvAf8BYgHLAe4B/wFg
+        AcoB7QH/AV8ByQHsAf8BKgFzAYUB/wgAAY0BkwE8Af8BgAGHAQAB/wGBAYYBAAH/AYEBhQEAAf8BggGF
+        AQAB/wGDAYQBAAH/AYIBgwEAAf8BggGBAQAB/wGCAYABAAH/AYEBfgEAAf8BgAF8AQAB/wF/AXoBAAH/
+        AX8BeQEAAf8BRAFJAQAB/wgAAZMBcwE8Af8BhwFTAQAB/wGGAVEBAAH/AYUBTwEAAf8BhQFOAQAB/wGE
+        AUwBAAH/AYMBSwEAAf8BggFJAQAB/wGCAUgBAAH/AYEBRgEAAf8BgAFFAQAB/wF/AUMBAAH/AX8BQgEA
+        Af8BSQEuAQAB/wgABP8D4wH/A98B/wPcAf8D2gH/A9cB/wPVAf8D0gH/A9EB/wPNAf8DzAH/A8gB/wPH
+        Af8DlgH/CAABkgHiAfYB/wFwAdoB9gH/AXAB2AH1Af8BbwHWAfQB/wFsAdYB8wH/AWsB1QHzAf8BagHT
+        AfIB/wFoAdEB8gH/AWcB0QHwAf8BZQHQAe8B/wFkAc8B7gH/AWIBzQHuAf8BYQHMAe0B/wEsAXkBjQH/
+        CAABmQGeAVAB/wGAAYgBAAH/AWkBbgEAAf8BaQFuAQAB/wFpAW0BAAH/AWkBbAEAAf8BagFsAQAB/wFq
+        AWsBAAH/AmoBAAH/AWoBaQEAAf8BaQFnAQAB/wFpAWYBAAH/AYABewEAAf8BRwFMAQAB/wgAAZ4BgQFQ
+        Af8BiAFVAQAB/wGIAVQBAAH/AYcBUgEAAf8BhgFRAQAB/wGFAU8BAAH/AYUBTgEAAf8BhAFMAQAB/wGD
+        AUsBAAH/AWoBOwEAAf8BaQE5AQAB/wFpATkBAAH/AYABRAEAAf8BTAEwAQAB/wgABP8D5gH/A+QB/wPh
+        Af8D3wH/A9wB/wPaAf8D1wH/A9UB/wPSAf8DzwH/A80B/wPKAf8DmgH/CAABogHnAfgB/wF0AdwB9gH/
+        AXIB2wH2Af8BcAHZAfUB/wFvAdgB9AH/AW4B1wHzAf8BbAHWAfIB/wFrAdQB8QH/AWkB0wHxAf8BaAHR
+        AfIB/wFmAdEB7wH/AWUBzwHvAf8BZAHNAe8B/wExAYYBmwH/CAABpAGoAWIB/wGAAYoBAAH/AWgBbwEA
+        Af8BgAGIAQAB/wGBAYgBAAH/AYEBhwEAAf8BgQGGAQAB/wGBAYUBAAH/AWoBawEAAf8BgwGEAQAB/wGC
+        AYEBAAH/AWkBaAEAAf8BgAF9AQAB/wFMAVEBAAH/CAABqAGOAWIB/wGKAVgBAAH/AW8BRgEAAf8BbgFF
+        AQAB/wFuAUQBAAH/AW4BQgEAAf8BbQFCAQAB/wFsAUABAAH/AYQBTQEAAf8BhAFMAQAB/wGCAUkBAAH/
+        AYEBSAEAAf8BgAFGAQAB/wFRATMBAAH/CAAE/wPnAf8D5gH/AQAB4AEAAf8BAAHgAQAB/wEAAd4BAAH/
+        AQAB3AEAAf8BAAHbAQAB/wECAdkBAAH/AQUB2QEAAf8BCgHWAQAB/wPQAf8DzQH/A6EB/wgAAaoB6QH4
+        Af8BdgHeAfgB/wF0Ad0B9wH/AXMB2wH2Af8BcQHbAfYB/wFxAdgB9QH/AW8B2AH0Af8BbQHXAfMB/wFs
+        AdUB8wH/AWoB0wHyAf8BaQHTAfEB/wFnAdEB8QH/AWcB0AHwAf8BNAGNAaMB/wgAAagBrQFrAf8BfwGL
+        AQAB/wFoAXEBAAH/AYABigEAAf8BgQGJAQAB/wGAAYgBAAH/AYABhwEAAf8BgQGHAQAB/wFpAWwBAAH/
+        AX8BgwEAAf8BgAGCAQAB/wFoAWkBAAH/AoEBAAH/AVABVQEAAf8IAAGtAZUBawH/AYsBWwEAAf8BiwFa
+        AQAB/wGKAVgBAAH/AYkBVgEAAf8BiAFVAQAB/wGHAVMBAAH/AYcBUgEAAf8BhQFPAQAB/wGDAU4BAAH/
+        AYIBTAEAAf8BgQFKAQAB/wGBAUkBAAH/AVUBNQEAAf8IAAT/A+gB/wPnAf8BAAHjAQAB/wEAAeEBAAH/
+        AQAB4AEAAf8BAAHeAQAB/wEAAd4BAAH/AQAB2wEAAf8BAAHYAQAB/wEBAdYBAAH/A9MB/wPSAf8DpQH/
+        CAABrQHpAfkB/wF3AeEB+AH/AXYB4AH4Af8BdQHeAfcB/wF0AdwB9wH/AXMB2wH2Af8BcQHbAfUB/wFv
+        AdkB9QH/AW4B1wHzAf8BbQHWAfMB/wFrAdUB8gH/AWkB0wHyAf8BaQHSAfEB/wE2AZQBrAH/CAABqwGv
+        AW4B/wF/AY0BAAH/AWcBcgEAAf8BfwGLAQAB/wF/AYoBAAH/AYABigEAAf8BgAGIAQAB/wF+AYYBAAH/
+        AWYBbAEAAf8BfwGEAQAB/wF/AYIBAAH/AWYBaAEAAf8BfQF/AQAB/wFSAVgBAAH/CAABrwGXAW4B/wGN
+        AV4BAAH/AXIBSwEAAf8BcQFKAQAB/wFwAUgBAAH/AXABRwEAAf8BbgFFAQAB/wFtAUQBAAH/AWwBQgEA
+        Af8BawFBAQAB/wFqAT4BAAH/AWgBPQEAAf8BfwFKAQAB/wFYATgBAAH/CAAE/wPpAf8D6AH/Ad4BmAEA
+        Af8BAAHjAQAB/wEAAeMBAAH/AQAB4AEAAf8B1gGLAQAB/wHVAYcBAAH/AdMBgwEAAf8B0AF9AQAB/wPV
+        Af8D0wH/A6sB/wgAAa0B6gH5Af8BegHjAfsB/wF5AeEB+gH/AXcB4AH4Af8BdgHeAfcB/wF1Ad0B+AH/
+        AXQB2wH3Af8BcgHaAfYB/wFxAdoB9QH/AW8B2AH1Af8BbQHXAfQB/wFtAdUB8wH/AWsB1QHyAf8BOQGd
+        AbYB/wgAAaoBrwFvAf8BfQGOAQAB/wFmAXMBAAH/AX8BjQEAAf8BfwGMAQAB/wF+AYoBAAH/AX0BiAEA
+        Af8BfQGHAQAB/wF8AYQBAAH/AWQBaQEAAf8BYQFlAQAB/wF3AXsBAAH/AXYBegEAAf8BWQFfAQAB/wgA
+        Aa8BmAFvAf8BjgFhAQAB/wGNAV8BAAH/AY0BXgEAAf8BjAFcAQAB/wGKAVoBAAH/AYgBWAEAAf8BhwFW
+        AQAB/wGEAVMBAAH/AYEBTwEAAf8BfQFNAQAB/wF7AUoBAAH/AXoBSQEAAf8BXwE8AQAB/wgABP8D6gH/
+        A+kB/wHiAZ4BAAH/AeABmgEAAf8B3QGXAQAB/wHaAZMBAAH/AdgBjwEAAf8B0wGJAQAB/wHOAYEBAAH/
+        AcgBfgEAAf8D0gH/A9EB/wO0Af8IAAGtAeoB+QH/AX0B5QH7Af8BfAHjAfsB/wF6AeMB+gH/AXkB4QH5
+        Af8BdwHfAfkB/wF2Ad4B+AH/AXUB3QH3Af8BcwHcAfYB/wFyAdsB9gH/AW8B2gH0Af8BbwHYAfQB/wFt
+        AdcB8wH/AT0BpwHBAf8IAAGqAa8BbwH/AX4BkAEAAf8BZgF0AQAB/wF9AY4BAAH/AX4BjQEAAf8BfgGL
+        AQAB/wF9AYkBAAH/AXwBhgEAAf8BdQGAAQAB/wFdAWQBAAH/AW8BdgEAAf8BbQFyAQAB/wFsAXEBAAH/
+        AWIBaQEAAf8IAAGvAZgBbwH/AZABZAEAAf8BdAFPAQAB/wFzAU8BAAH/AXMBTQEAAf8BcQFLAQAB/wFv
+        AUkBAAH/AYYBVgEAAf8BgAFTAQAB/wF7AU4BAAH/AXYBSgEAAf8BcgFGAQAB/wFxAUUBAAH/AWkBQgEA
+        Af8IAAT/A+sB/wPqAf8B4wGlAQAB/wHiAaEBAAH/Ad4BmwEAAf8B2wGXAQAB/wHWAY8BAAH/Ac0BiwEA
+        Af8BxQGBAQAB/wG9AXoBAAH/A8oB/wPJAf8DwgH/CAABrgHqAfkB/wF/AecB/QH/AX4B5gH7Af8BfQHk
+        AfsB/wF7AeMB+wH/AXoB4QH6Af8BTgHRAfEB/wFPAdEB8QH/AU8B0QHxAf8BSwHOAe4B/wFGAcAB3wH/
+        AT8BrQHIAf8BOwGiAbwB/wE/Aa4ByQH/CAABqwGwAXAB/wF8AZEBAAH/AWUBdQEAAf8BfQGPAQAB/wF9
+        AY4BAAH/AXwBjAEAAf8BewGJAQAB/wF2AYMBAAH/AYkBjgEzAf8BigGQATcB/wGOAZMBPgH/AZIBlwFI
+        Af8BowGnAWQB/wFvAXYBBwH/CAABsAGZAXAB/wGRAWcBAAH/AZABZQEAAf8BjwFjAQAB/wGOAWEBAAH/
+        AYwBXwEAAf8BiQFcAQAB/wGDAVcBAAH/AY4BbAEzAf8BkAFvATcB/wGTAXMBPgH/AZcBegFIAf8BpwGO
+        AWQB/wF2AU0BBwH/CAAE/wPsAf8D6wH/AeUBqQEAAf8B4wGlAQAB/wHgAaEBAAH/AdsBmwEAAf8B0gGS
+        AQAV/wPcAf8IAAGxAesB+QH/AYMB6QH+Af8BgQHoAf0B/wF/AeYB/QH/AX4B5QH8Af8BfAHkAfoB/wFU
+        AdIB8gH/A+MB/wPfAf8D3gH/A98B/wPjAf8D1gH/DAABrgGyAXMB/wF8AZIBAAH/AWUBdwEAAf8BfQGR
+        AQAB/wF8AY8BAAH/AXoBjAEAAf8BeQGJAQAB/wFzAYEBAAH/AYoBkAE3Af8BfgGMAQAB/wF/AYsBAAH/
+        AYABiwEAAf8BcQF4AQsB/wwAAbIBmwFzAf8BkgFpAQAB/wF3AVQBAAH/AXYBUwEAAf8BdAFRAQAB/wGM
+        AWEBAAH/AYkBXgEAAf8BgQFXAQAB/wGQAW8BNwH/AYwBXQEAAf8BiwFbAQAB/wGLAVoBAAH/AXgBUAEL
+        Af8MAAT/A+0B/wPtAf8B6AGvAQAB/wHlAasBAAH/AeABpQEAAf8B2wGgAQAB/wHOAZMBAAX/A+kB/wPo
+        Af8D5wH/A+QB/wwAAbgB7AH5Af8BhAHrAv8BggHqAv8BggHpAf0B/wGAAegB/QH/AX8B5gH9Af8BYAHV
+        AfMB/wPsAf8D6wH/A+sB/wPqAf8D7QH/A9wB/wwAAbIBtgF7Af8BfAGUAQAB/wFkAXcBAAH/AXwBkgEA
+        Af8BewGQAQAB/wF6AY4BAAH/AXYBiAEAAf8BbgF+AQAB/wGPAZUBPgH/AX4BjgEAAf8BfwGNAQAB/wFr
+        AXIBAAH/EAABtgGgAXsB/wGUAWwBAAH/AZMBawEAAf8BkgFpAQAB/wGQAWcBAAH/AY4BZAEAAf8BiAFf
+        AQAB/wF+AVcBAAH/AZUBdQE+Af8BjgFgAQAB/wGNAV4BAAH/AXIBSAEAAf8QAAT/A+4B/wPuAf8B6gG1
+        AQAB/wHmAbEBAAH/AeMBqwEAAf8B2gGiAQAB/wHKAZQBAAX/A+oB/wPpAf8DzgH/EAABxQHwAfoB/wGE
+        AesC/wGEAesC/wGEAesB/gH/AYIB6QL/AYAB6QH9Af8BcwHaAfQB/wPyAf8D8gH/A/EB/wPxAf8D8gH/
+        A+IB/wwAAboBvgGKAf8BegGVAQAB/wFkAXkBAAH/AWUBeAEAAf8BYwF2AQAB/wFhAXMBAAH/AV8BbgEA
+        Af8BWAFmAQAB/wGXAZwBTAH/AX0BjwEAAf8BawFyAQAB/xQAAb4BqwGKAf8BlQFvAQAB/wF5AVkBAAH/
+        AXgBWAEAAf8BdgFVAQAB/wFzAVMBAAH/AW4BTgEAAf8BZgFIAQAB/wGcAX4BTAH/AY8BYwEAAf8BcgFI
+        AQAB/xQABP8D7wH/A+8B/wPuAf8D7QH/A+wB/wPpAf8D5gX/A+sB/wPOAf8UAAHWAfQB/AH/AYQB6wL/
+        AYQB6wL/AYQB6wL/AYQB6wL/AYMB6wL/AYcB3wH2Af8D/AH/A/4B/wP+Af8D/AH/A/QB/wPrAf8MAAHG
+        AckBngH/AXsBlwEAAf8BewGWAQAB/wF6AZUBAAH/AXkBkgEAAf8BegGRAQAB/wF0AYoBAAH/AW0BgAEA
+        Af8BqQGuAWwB/wFuAXUBBgH/GAAByQG5AZ4B/wGXAXIBAAH/AZYBcAEAAf8BlQFvAQAB/wGSAWwBAAH/
+        AZEBaQEAAf8BigFkAQAB/wGAAVwBAAH/Aa4BlgFsAf8BdQFMAQYB/xgABP8D8AH/A+8B/wPvAf8D7gH/
+        A+0B/wPrAf8D5wX/A9kB/xgAAe0B+gH+Af8B1gH0AfwB/wHEAe8B+gH/AbMB6wH5Af8BpgHnAfgB/wGb
+        AeUB9wH/AZcB5AH3Af8kAAHUAdcBtwH/AcYByQGeAf8BugG+AYoB/wGyAbYBegH/Aa0BsQFyAf8BpwGs
+        AWkB/wGfAaQBWgH/AZMBmAFFAf8BgwGJASkB/xwAAdcBzAG3Af8ByQG5AZ4B/wG+AasBigH/AbYBoAF6
+        Af8BsQGaAXIB/wGsAZQBaQH/AaQBiQFaAf8BmAF5AUUB/wGJAWUBKQH/HAAg/wP+Af//ABkAAUIBTQE+
+        BwABPgMAASgDAAFAAwABIAMAAQEBAAEBBgABARYAA/+BAAj/AYABAQGAAQEBgAEBAYABAQGAAQEBgAEB
+        AYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEB
+        AYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEBAYABAQGAAQEBgAEB
+        AYABAwGAAQMBgAEDAYABAwGAAQMBgAEHAYABBwGAAQcBgAEDAYABDwGAAQ8BgAEPAYABAwGAAR8BgAEf
+        AYABHwGAAf8BgAE/AYABPwGAAT8I/ws=
+</value>
+  </data>
+  <data name="treeViewTemplateExplorer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="treeViewTemplateExplorer.SelectedImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="treeViewTemplateExplorer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 182</value>
+  </data>
+  <data name="treeViewTemplateExplorer.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Name" xml:space="preserve">
+    <value>treeViewTemplateExplorer</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaTreeViewLessFancy.kataraktaTreeViewLessFancy, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;treeViewTemplateExplorer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="listViewEditTemplate.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="listViewEditTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="listViewEditTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 142</value>
+  </data>
+  <data name="listViewEditTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.Name" xml:space="preserve">
+    <value>listViewEditTemplate</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.Type" xml:space="preserve">
+    <value>kataraktaCS.Controls.kataraktaListView.kataraktaListView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;listViewEditTemplate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>255, 328</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTemplateTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTemplateTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 55</value>
+  </data>
+  <data name="labelTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelTemplateTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelTemplateTitle.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="labelTemplateTitle.ToolTip" xml:space="preserve">
+    <value>The title for the template.</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Name" xml:space="preserve">
+    <value>labelTemplateTitle</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="textBoxTemplateFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="textBoxTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTemplateFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Name" xml:space="preserve">
+    <value>textBoxTemplateFilename</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateFilename.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTemplateFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTemplateFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTemplateFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="labelTemplateFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="labelTemplateFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelTemplateFilename.Text" xml:space="preserve">
+    <value>Filename:</value>
+  </data>
+  <data name="labelTemplateFilename.ToolTip" xml:space="preserve">
+    <value>The filename of the template. You don't need to
+write “.json” at the end.</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.Name" xml:space="preserve">
+    <value>labelTemplateFilename</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateFilename.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 110</value>
+  </data>
+  <data name="textBoxTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTemplateDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.Name" xml:space="preserve">
+    <value>textBoxTemplateDesc</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateDesc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelTemplateDesc.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTemplateDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTemplateDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 94</value>
+  </data>
+  <data name="labelTemplateDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="labelTemplateDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelTemplateDesc.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="labelTemplateDesc.ToolTip" xml:space="preserve">
+    <value>The description for the template.</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Name" xml:space="preserve">
+    <value>labelTemplateDesc</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;labelTemplateDesc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBoxTemplateTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 71</value>
+  </data>
+  <data name="textBoxTemplateTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTemplateTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Name" xml:space="preserve">
+    <value>textBoxTemplateTitle</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.Parent" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;textBoxTemplateTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupTemplateMain.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupTemplateMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 13</value>
+  </data>
+  <data name="groupTemplateMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 137</value>
+  </data>
+  <data name="groupTemplateMain.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupTemplateMain.Text" xml:space="preserve">
+    <value>Template</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Name" xml:space="preserve">
+    <value>groupTemplateMain</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateMain.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="textBoxTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 160</value>
+  </data>
+  <data name="textBoxTextureSegAddr.MaxLength" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBoxTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="textBoxTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Name" xml:space="preserve">
+    <value>textBoxTextureSegAddr</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureSegAddr.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTextureSegAddr.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureSegAddr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTextureSegAddr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 163</value>
+  </data>
+  <data name="labelTextureSegAddr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="labelTextureSegAddr.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="labelTextureSegAddr.Text" xml:space="preserve">
+    <value>Segmented address (RAM):</value>
+  </data>
+  <data name="labelTextureSegAddr.ToolTip" xml:space="preserve">
+    <value>Where the texture is located in RAM.
+
+In order to find it, you can use either kataraktaCS's Texture Search, or Quad64. Though, keep
+in mind that Texture Search is still WIP, so you might have to use Quad64 in certain cases.
+
+For Texture Search, go to the location where the needed texture is loaded, hit “Scan for
+Textures,” select the texture on the list and copy the segmented address. Make sure you are
+copying the segmented address, not the virtual address below.
+
+For Quad64, open the ROM of your game, go to the level where the needed texture is located,
+then open “Textures,” select the texture and copy the segmented address. Make sure you are
+copying the segmented address, not the ROM address above.</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.Name" xml:space="preserve">
+    <value>labelTextureSegAddr</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTextureSegAddr.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboTextureFormat.Items" xml:space="preserve">
+    <value>I4</value>
+  </data>
+  <data name="comboTextureFormat.Items1" xml:space="preserve">
+    <value>IA4</value>
+  </data>
+  <data name="comboTextureFormat.Items2" xml:space="preserve">
+    <value>I8</value>
+  </data>
+  <data name="comboTextureFormat.Items3" xml:space="preserve">
+    <value>IA8</value>
+  </data>
+  <data name="comboTextureFormat.Items4" xml:space="preserve">
+    <value>RGBA16</value>
+  </data>
+  <data name="comboTextureFormat.Items5" xml:space="preserve">
+    <value>IA16</value>
+  </data>
+  <data name="comboTextureFormat.Items6" xml:space="preserve">
+    <value>RGBA32</value>
+  </data>
+  <data name="comboTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 186</value>
+  </data>
+  <data name="comboTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 21</value>
+  </data>
+  <data name="comboTextureFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Name" xml:space="preserve">
+    <value>comboTextureFormat</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;comboTextureFormat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBoxTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="textBoxTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Name" xml:space="preserve">
+    <value>textBoxTextureAltFilename</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureAltFilename.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelTextureFormat.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureFormat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTextureFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 189</value>
+  </data>
+  <data name="labelTextureFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="labelTextureFormat.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelTextureFormat.Text" xml:space="preserve">
+    <value>Pixel format (RAM):</value>
+  </data>
+  <data name="labelTextureFormat.ToolTip" xml:space="preserve">
+    <value>The format of the texture in RAM.
+
+Found the same way the segmented address is
+found through kataraktaCS's Texture Search or
+Quad64.</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Name" xml:space="preserve">
+    <value>labelTextureFormat</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTextureFormat.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelTextureAltFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureAltFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTextureAltFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 118</value>
+  </data>
+  <data name="labelTextureAltFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="labelTextureAltFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelTextureAltFilename.Text" xml:space="preserve">
+    <value>Alternative filename:</value>
+  </data>
+  <data name="labelTextureAltFilename.ToolTip" xml:space="preserve">
+    <value>The filename that can be used instead of a texture
+pack filename (very useful if you're making a
+template only for RAM, for example).</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Name" xml:space="preserve">
+    <value>labelTextureAltFilename</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTextureAltFilename.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="checkTextureDisplay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkTextureDisplay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkTextureDisplay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 59</value>
+  </data>
+  <data name="checkTextureDisplay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="checkTextureDisplay.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkTextureDisplay.Text" xml:space="preserve">
+    <value>Display this texture</value>
+  </data>
+  <data name="checkTextureDisplay.ToolTip" xml:space="preserve">
+    <value>When previewing all the textures that the template
+has, do we show this texture?
+
+You can turn this off for identical textures as to not
+clog up the texture preview.</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Name" xml:space="preserve">
+    <value>checkTextureDisplay</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;checkTextureDisplay.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBoxTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 95</value>
+  </data>
+  <data name="textBoxTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Name" xml:space="preserve">
+    <value>textBoxTexturePackFilename</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;textBoxTexturePackFilename.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelTexturePackFilename.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTexturePackFilename.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTexturePackFilename.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 79</value>
+  </data>
+  <data name="labelTexturePackFilename.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="labelTexturePackFilename.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelTexturePackFilename.Text" xml:space="preserve">
+    <value>Texture pack filename:</value>
+  </data>
+  <data name="labelTexturePackFilename.ToolTip" xml:space="preserve">
+    <value>For texture packs. The filename that graphics
+plugins use to determine what texture to change.
+
+Please note that the game name and extension
+will be automatically removed. So, something
+like “SUPER MARIO 64#6B8D43C4#0#2_all.png”
+will become just “#6B8D43C4#0#2_all” for example.
+This is done in order to let you use texture packs on
+different games and ROM hacks, whose names
+could be different from “SUPER MARIO 64.”</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Name" xml:space="preserve">
+    <value>labelTexturePackFilename</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTexturePackFilename.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="textBoxTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="textBoxTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 20</value>
+  </data>
+  <data name="textBoxTextureTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Name" xml:space="preserve">
+    <value>textBoxTextureTitle</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;textBoxTextureTitle.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelTextureTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTextureTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTextureTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="labelTextureTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="labelTextureTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelTextureTitle.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="labelTextureTitle.ToolTip" xml:space="preserve">
+    <value>The title for the texture.</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Name" xml:space="preserve">
+    <value>labelTextureTitle</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.Parent" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;labelTextureTitle.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="groupTemplateItems.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupTemplateItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 155</value>
+  </data>
+  <data name="groupTemplateItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 214</value>
+  </data>
+  <data name="groupTemplateItems.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="groupTemplateItems.Text" xml:space="preserve">
+    <value>Template texture</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Name" xml:space="preserve">
+    <value>groupTemplateItems</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupTemplateItems.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 13</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.Text" xml:space="preserve">
+    <value>Template to use:</value>
+  </data>
+  <data name="labelFolderSettingsTemplateUsed.ToolTip" xml:space="preserve">
+    <value>Select the template that will be used to identify
+textures inside this folder.</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Name" xml:space="preserve">
+    <value>labelFolderSettingsTemplateUsed</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
+  </data>
+  <data name="&gt;&gt;labelFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 59</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.Text" xml:space="preserve">
+    <value>Cover subfolders</value>
+  </data>
+  <data name="checkFolderSettingsCoverSubfolders.ToolTip" xml:space="preserve">
+    <value>Whether these Folder Settings will apply across every subfolder of this folder.
+
+Example:
+Suppose you have three folders with textures in them:
+• Eyes\Angry\
+• Eyes\Angry\Very Angry\
+• Eyes\Angry\Extremely Angry\
+
+Notice how “Very Angry” and “Extremely Angry” are subfolders of “Angry.” If you
+were to create Folder Settings for “Angry” and turn this option on, then the template
+used for “Angry” will apply for “Very Angry” and “Extremely Angry” as well.</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Name" xml:space="preserve">
+    <value>checkFolderSettingsCoverSubfolders</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
+  </data>
+  <data name="&gt;&gt;checkFolderSettingsCoverSubfolders.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 375</value>
+  </data>
+  <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 23</value>
+  </data>
+  <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
+    <value>buttonSave</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSave.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="buttonAddTexture.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonAddTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonAddTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 375</value>
+  </data>
+  <data name="buttonAddTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="buttonAddTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="buttonAddTexture.Text" xml:space="preserve">
+    <value>Add Texture</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Name" xml:space="preserve">
+    <value>buttonAddTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonAddTexture.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="buttonRemoveTexture.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonRemoveTexture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonRemoveTexture.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 375</value>
+  </data>
+  <data name="buttonRemoveTexture.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="buttonRemoveTexture.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="buttonRemoveTexture.Text" xml:space="preserve">
+    <value>Remove Texture</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Name" xml:space="preserve">
+    <value>buttonRemoveTexture</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonRemoveTexture.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="buttonCreateFolderSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCreateFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 12</value>
+  </data>
+  <data name="buttonCreateFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="buttonCreateFolderSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="buttonCreateFolderSettings.Text" xml:space="preserve">
+    <value>Create Folder Settings</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Name" xml:space="preserve">
+    <value>buttonCreateFolderSettings</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateFolderSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonCreateTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCreateTemplate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="buttonCreateTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="buttonCreateTemplate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="buttonCreateTemplate.Text" xml:space="preserve">
+    <value>Create Template</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Name" xml:space="preserve">
+    <value>buttonCreateTemplate</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCreateTemplate.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 21</value>
+  </data>
+  <data name="comboFolderSettingsTemplateUsed.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Name" xml:space="preserve">
+    <value>comboFolderSettingsTemplateUsed</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.Parent" xml:space="preserve">
+    <value>groupFolderSettings</value>
+  </data>
+  <data name="&gt;&gt;comboFolderSettingsTemplateUsed.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupFolderSettings.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupFolderSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 13</value>
+  </data>
+  <data name="groupFolderSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 83</value>
+  </data>
+  <data name="groupFolderSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupFolderSettings.Text" xml:space="preserve">
+    <value>Folder Settings</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.Name" xml:space="preserve">
+    <value>groupFolderSettings</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupFolderSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelSelectSomething.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectSomething.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectSomething.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 107</value>
+  </data>
+  <data name="labelSelectSomething.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 26</value>
+  </data>
+  <data name="labelSelectSomething.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelSelectSomething.Text" xml:space="preserve">
+    <value>Select a Folder Settings file or a template file
+to show their properties that can be modified.</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Name" xml:space="preserve">
+    <value>labelSelectSomething</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSelectSomething.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>566, 411</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        Ov+tcBz/BAIA/9TU1P9cXFz/CAgI/wAAAGwAAABiAAAAYgAAAEUAAAAZAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAALgAAAK0aGhr/6Ojo/+vr6//W1tb/ycnJ/7u7
+        u/+rq6v/pqal/9zX0f+5gi//6+vr/zw8PP8EBAT6AAAAVgAAAAoAAAAJAAAABgAAAAIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAANAAAAXQICAvwbGxv/Pj4+/1pa
+        Wv9nZ2f/n5+f//Dw8P/19fX/6+vr//Dw8P/d3d3/GRkZ/wAAAKMAAAAwAAAABAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAWAAAAXAAA
+        AJ4CAgLpBgYG/w8PD/8aGhr/JiYm/zQ0NP85OTn/Li4u/xYWFv8BAQH6AAAAWgAAAA0AAAABAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAIAAAAMAAAALAAAAFIAAABtAAAAggAAAJcAAACrAAAAugAAAMcBAQHPAAAAjwAAAFYAAAAUAAAAAwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAEAAAAEAAAACAAAAAwAAAARAAAAGAAAACQAAAAzAAAAPAAAADoAAAAkAAAACgAA
+        AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAQAAAAEAAAABAAA
+        AAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA////////////gf///wAz//4AAP/+AAB//gAAP/wAAB/8AAAf/AAAD/wAAA/8AAAP/AAAD/gA
+        AB/4AAA/+AAAH/gAAB/4AAAf+AAAH/gAAB/wAAAf8AAAP/AAAH/wAAD/8AAB//AAP//wAD//+AA///wA
+        f///gP////////////8oAAAAIAAAAEAAAAABAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEBAQ/xUV
+        Ff8XFxf/GBgY/xsbG/8aGhr/HBwc/y8cAv8qHQv/Jx8T/ykfEv8sJh7/NyEG/zshAf87Jw//IiIi/ycn
+        J/8uKyf/KCgo/yoqKv8tLS3/Li4u/zErJP8wLCf/NTIu/zExMf81NTX/ODg4/zs7O/8/Pz//QiYB/0Qn
+        Af9FKQL/RyoB/00tAv9PLwL/XTYC/143Av9YPRn/RjUh/2A5Av9iOgL/aj4D/21BBf9wQQP/cUID/3tJ
+        Bf9+SgP/QUFB/0NDQ/9ERET/R0dH/0lJSf9KSkr/TExM/09PT/9SSUD/UVFR/1VUU/9bW1v/XV1d/15e
+        Xv9nYl7/dmVP/2RkZP9mZmb/a2tr/21tbf9vb2//cG9v/3Fxcf93dHL/f3x6/4dPA/+FTwX/h1AE/4hQ
+        A/+MUgP/jlMD/49UA/+DWB7/kFUD/5FVA/+QVQX/lFcE/5VYA/+XWQT/mFoE/5pbBP+cXAT/nl0E/6Fe
+        BP+iXwT/o2AF/6NhBv+kYQX/pWEG/6ViBv+mYgX/pmIH/6ZiBv+lYwn/pmMI/6dkCf+nZQr/p2UM/6hl
+        C/+oZg3/qWcO/6loD/+paRH/qGkT/6ppEf+raxP/q2sU/6tsFf+sbRf/rG0Y/6xuGP+tbxv/rXAb/65x
+        Hv+vch7/pG8l/69zIP+tfDj/sXUk/7F2Jf+xdib/sngp/7N5Kv+yeiz/tHsu/7R8Lv+1fTH/tX4y/45v
+        Rv+SdlH/toA1/7mEO/+eglz/u4dB/7+SVf+hi2//t5Rl/72YZv/Bk1T/w5VW/8SYW//EmV7/x51j/8qi
+        a//LpW//z6t6/9Ctff+AgID/g4OD/4eDgP+EhIT/i4uL/4yJiP+NjIv/jo6O/5GRkf+SkpL/l5SS/5aW
+        lv+ZmZn/mpqa/5ybmv+fn5//qZqJ/6idk/+7qI7/u6yb/6Ghof+jo6P/paWl/6ekpP+np6f/q6ur/6ys
+        rP+3sar/vLWr/7Kysv+0tLP/tra1/7m5uf+7u7v/vb29/76+vv/TsYP/1bWK/9m8lf/avZb/27+a/8C2
+        qP/Bu7P/3MGd/8PAvf/Dwb7/xMC8/8XCvf/Gwrz/3cSh/93FpP/ZybT/38uw/97MtP/jz7P/wMDA/8PC
+        wP/CwsL/xMPC/8fHx//KxsD/yMfG/8zHwf/NycP/yMjI/8rKyv/My8r/zs3L/8zMzP/Nzc3/z8/P/9PP
+        yf/V0Mr/19LL/9vQwf/b0sX/39jP/9HR0f/T09P/1NTU/9bW1v/a2Nf/2dnZ/9ra2v/d3d3/3t7e/+TV
+        wf/n2cf/5N7V/+Df3f/h4N7/4+Lf/+Ti3v/g4OD/4uLi/+fn5//r5uD/6enp/+vr6//t7e3/AAAA/wAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVGxoQBgEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAApP3v3buvmzUBAAADBQAAAAAAAAAAAAAAAAAAAAAAABr8qzpFo7nh/ZsQQe7u
+        PAUAAAAAAAAAAAAAAAAAAAAAQurOSighBwqh4ZzurKjrPQEAAAAAAAAAAAAAAAAAAACj2M1uV00vI0j5
+        648uCKjoOQAAAAAAAAAAAAAAAAAAA7THwnxlWk4jn+CMVU8tCbTWMgAAAAAAAAAAAAAAAAAQ0sqaeGdd
+        VCBHiFVbWU0qC764BgAAAAAAAAAAAAAAABrp2pR3aFxYHiZRW19fWlErOP0zAAAAAAAAAAAAAAAAMe/k
+        i3RnYlpJTFpcX2hpg5DE/BUAAAAAAAAAAAAAAABB6+WEcmdiYlxdXGNbb5Kt3d86AAAAAAAAAAAAAAAA
+        AKDcz4FwY2NiZF9iW0qJtu6oHQAAAAAAAAAAAAAAAAACs8fGfmxmX2NnY2JaLRS9vTIAAAAAAAAAAAAA
+        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
+        AAAAAAABAAAABAAAAAkAAAAPAAAADAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPB/
+        AADwDwAA4AcAAOADAADgAwAA4AMAAOAHAADAAwAAwAMAAMAHAADADwAAwB8AAMB/AADw/wAA//8AACgA
+        AAAQAAAAIAAAAAEACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAABJLQb/Wkw4/25AA/9zQwP/b1c5/19T
+        Qv9gVEX/dGNO/3pnT/9jY2P/a2tr/3tvYP9zc3P/dHR0/3p6ev97e3v/gUwD/4RQCf+KUQP/kFUE/5la
+        BP+aWgT/m1sF/59dBP+aZBr/mmkm/5lsL/+ddD3/o2AF/6NhB/+kYAX/pGEF/6VhBf+kYgf/pWIH/6Zi
+        B/+mYwf/p2QJ/6dkCv+nZQr/pmUN/6ZmD/+oZw3/qWcO/6pqEv+sbRj/r3If/7J8MP+2fjL/iH9z/6yJ
+        Wf+7h0H/v49N/7mSW/+5lWP/wJFR/8KTVP/FmVz/yaBo/8ildP+Li4v/mI6D/5KSkf+Wlpb/mZiY/52c
+        m/+fn5//oqGh/6Ojo/+mpaP/paWl/6enp/+oqKj/qqqq/6+urf+yrqn/trCp/7q1r/+4t7X/v7qz/7u7
+        uv++vLr/ya+M/9K1jf/Nvab/wsLC/83Jxf/Szcb/1s7E/9HPzf/az8H/1dPQ/9TU0//j4d7/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAACUlGSQwADgAAAAAAAAAAAD82AgBKTAhIAAAAAAAAAABJNigCPRgSAUAA
+        AAAAAAAAVRsmEBEeHRlHAAAAAAAAAVUuHR4eFjJOCQAAAAAAAAlOLR0mJhMGQgAAAAAAAAAOUiweGjUr
+        EAY+AAAAAAAAP0UlFwRWMikIPgAAAAAAAEk2KRYHVVw9PwAAAAAAAABVMi0WCgkPDwAAAAAAAAAAXEk9
+        Gw8BAAAAAAAAAAAAAAk8R1VQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//
+        AADwfwAA8A8AAOAHAADgAwAA4AMAAOADAADgBwAAwAMAAMADAADABwAAwA8AAMAfAADAfwAA8P8AAP//
+        AAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Template Manager</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmTemplateManager</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
