@@ -1,7 +1,7 @@
 [Прочитать эту страницу по-русски](https://github.com/vazhka-dolya/kataraktaCS/blob/main/README.ru.md) | **Read this page in English**
 
 # kataraktaCS
-**kataraktaCS** is an advanced, real-time texture editor for **Super Mario 64** machinimas. Originally starting off in 2023 as a separate, poorly written program simply called **katarakta**, it has evolved over time, and is now a lightweight and full-featured [**Mario 64 Movie Maker 3**](https://github.com/projectcomet64/M64MM) add-on.
+**kataraktaCS** is an advanced, real-time texture editor for **Super Mario 64** machinimas. Originally starting off in 2023 as a separate, poorly written program simply called [**katarakta**](https://github.com/vazhka-dolya/katarakta), it has evolved over time, and is now a lightweight and full-featured [**Mario 64 Movie Maker 3**](https://github.com/projectcomet64/M64MM) add-on.
 
 <p align="center">
   <img src="https://github.com/vazhka-dolya/kataraktaCS/blob/main/GitHubImg/kataraktaCS1.png"/>
@@ -12,6 +12,9 @@
 2. Download the [latest version](https://github.com/vazhka-dolya/kataraktaCS/releases/latest) of the add-on. It will be in an archive.
 3. Extract the downloaded archive's contents[^1] into the root folder[^2] of M64MM3. If it prompts you to replace files, then do it.
 4. That's all.
+
+# Using
+kataraktaCS is designed to be (more or less) intuitive, but if you don't understand something, then you can refer to the [Wiki](https://github.com/vazhka-dolya/kataraktaCS/wiki). Also note that some text also shows additional information when you hover over it.
 
 # Building prerequisites
 <details>
@@ -32,4 +35,4 @@
 Credit is highly appreciated, but completely optional!
 
 [^1]: That means *all* the contents, including the `deps` folder. If it crashes when opening the **About** window, make sure that you have `HtmlRenderer.dll` and `HtmlRenderer.WinForms.dll` in M64MM's `deps` folder.
-[^2]: That's the same folder where `M64MM.exe` is located.
+[^2]: That's the same folder where the `M64MM.exe` file is located.
