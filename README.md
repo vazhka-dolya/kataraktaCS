@@ -6,6 +6,9 @@
 <p align="center">
   <img src="https://github.com/vazhka-dolya/kataraktaCS/blob/main/GitHubImg/kataraktaCS1.jpg"/>
 </p>
+<div align="center">
+  <h6>The stage seen on the screenshot is a slightly modified version of Sunny Beach from the Super Mario 74 ROM hack</h6>
+</div>
 
 # Installing
 1. Make sure you have the [latest version](https://github.com/projectcomet64/M64MM/releases/latest) of M64MM3 installed.
