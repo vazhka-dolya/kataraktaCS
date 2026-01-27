@@ -4,7 +4,7 @@
 **kataraktaCS** is an advanced, real-time texture editor for **Super Mario 64** machinimas. Originally starting off in 2023 as a separate, poorly written program simply called [**katarakta**](https://github.com/vazhka-dolya/katarakta), it has evolved over time, and is now a lightweight and full-featured [**Mario 64 Movie Maker 3**](https://github.com/projectcomet64/M64MM) add-on.
 
 <p align="center">
-  <img src="https://github.com/vazhka-dolya/kataraktaCS/blob/main/GitHubImg/kataraktaCS1.png"/>
+  <img src="https://github.com/vazhka-dolya/kataraktaCS/blob/main/GitHubImg/kataraktaCS1.jpg"/>
 </p>
 
 # Installing
