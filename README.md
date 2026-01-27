@@ -14,7 +14,7 @@
 4. That's all.
 
 # Using
-kataraktaCS is designed to be (more or less) intuitive, but if you don't understand something, then you can refer to the [Wiki](https://github.com/vazhka-dolya/kataraktaCS/wiki). Also note that some text also shows additional information when you hover over it.
+kataraktaCS is designed to be (more or less) intuitive, but if you don't understand something, then you can refer to the [Wiki](https://github.com/vazhka-dolya/kataraktaCS/wiki). Also note that some text shows additional information when you hover over it.
 
 # Building prerequisites
 <details>
