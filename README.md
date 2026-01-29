@@ -34,6 +34,10 @@ kataraktaCS is designed to be (more or less) intuitive, but if you don't underst
 # Special thanks
 - [SDRM45](https://www.youtube.com/channel/UC-3gc0FmQA2_Z2-MIS5sZNQ), [SMG1](https://www.youtube.com/channel/UCSHE37xuK4tKMEIJwpXGVOw), and [14O7](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg) — for testing the add-on.
 
+Please star this repository if you found kataraktaCS useful!
+
+Also check out my other add-ons for [M64MM3](https://github.com/projectcomet64/M64MM)—[BodyStates](https://github.com/vazhka-dolya/bodystates), [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks), [ChameleonCK](https://github.com/vazhka-dolya/ChameleonCK), and [Shapeshift](https://github.com/vazhka-dolya/Shapeshift)!
+
 ### “If I use kataraktaCS for my work, do I have to credit you?”
 Credit is highly appreciated, but completely optional!
 
