@@ -31,8 +31,12 @@ kataraktaCS задумана (более-менее) интуитивной дл
 
 </details>
 
-# Отдельная благодарность
+# Отдельная благодарность и прочее
 - [SDRM45](https://www.youtube.com/channel/UC-3gc0FmQA2_Z2-MIS5sZNQ), [SMG1](https://www.youtube.com/channel/UCSHE37xuK4tKMEIJwpXGVOw) и [14O7](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg) — тестирование и отзывы об адд-оне.
+
+Пожалуйста, поставьте звезду этому репозиторию, если kataraktaCS оказалась для Вас полезной!
+
+Также посмотрите мои другие адд-оны для [M64MM3](https://github.com/projectcomet64/M64MM): [BodyStates](https://github.com/vazhka-dolya/bodystates), [Tiny-Huge Tweaks](https://github.com/vazhka-dolya/TinyHugeTweaks), [ChameleonCK](https://github.com/vazhka-dolya/ChameleonCK) и [Shapeshift](https://github.com/vazhka-dolya/Shapeshift)!
 
 ### «Если я буду использовать этот адд-он для своих работ, то нужно ли мне указывать твоё авторство?»
 Я поощряю указание моего авторства, но оно полностью опциальное!
