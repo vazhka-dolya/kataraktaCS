@@ -52,10 +52,6 @@ namespace kataraktaCS
             return true;
         }
 
-        // TO DO:
-        // • Make it be able to read textures in custom levels
-        //   (their code is structured a bit differently)
-
         public List<LevelTexture> FindLevelTextures()
         {
             UInt32 Seg01 = 0x01000000;
