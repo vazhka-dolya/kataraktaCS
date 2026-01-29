@@ -31,7 +31,7 @@ kataraktaCS is designed to be (more or less) intuitive, but if you don't underst
 
 </details>
 
-# Special thanks
+# Special thanks & miscellaneous
 - [SDRM45](https://www.youtube.com/channel/UC-3gc0FmQA2_Z2-MIS5sZNQ), [SMG1](https://www.youtube.com/channel/UCSHE37xuK4tKMEIJwpXGVOw), and [14O7](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg) — for testing the add-on.
 
 Please star this repository if you found kataraktaCS useful!
