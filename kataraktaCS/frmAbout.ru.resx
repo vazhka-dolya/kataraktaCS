@@ -130,7 +130,7 @@ Fuck You Want To Public License.
     <value>179, 26</value>
   </data>
   <data name="htmlLabelAuthor.Text" xml:space="preserve">
-    <value>&lt;span style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;От DanilAstroid, или же vazhka-dolya&lt;br&gt;(&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;/span&gt;</value>
+    <value>&lt;span style="font-size:8pt;font-family:'Microsoft Sans Serif'"&gt;От DanilAstroid, или же vazhka-dolya&lt;br&gt;(&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;/span&gt;</value>
   </data>
   <data name="htmlLabelLegalNotice.Location" type="System.Drawing.Point, System.Drawing">
     <value>398, 291</value>
@@ -139,7 +139,7 @@ Fuck You Want To Public License.
     <value>170, 81</value>
   </data>
   <data name="htmlLabelLegalNotice.Text" xml:space="preserve">
-    <value>&lt;p style="text-align:center;font-size:10px;font-family:'Microsoft Sans Serif'"&gt;Эта программа никак не связана с&lt;br&gt;Nintendo Co. Ltd  и не имеет&lt;br&gt;претензий в сторону их&lt;br&gt;интеллектуальной собственности.&lt;/p&gt;</value>
+    <value>&lt;p style="text-align:center;font-size:7.5pt;font-family:'Microsoft Sans Serif'"&gt;Эта программа никак не связана с&lt;br&gt;Nintendo Co. Ltd  и не имеет&lt;br&gt;претензий в сторону их&lt;br&gt;интеллектуальной собственности.&lt;/p&gt;</value>
   </data>
   <data name="htmlLabelDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 104</value>

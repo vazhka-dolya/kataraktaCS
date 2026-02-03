@@ -8,7 +8,7 @@ namespace kataraktaCS
     public class kataraktaVersion
     {
         // For normal releases
-        public static string VersionName = "Release 1.0.0";
+        public static string VersionName = "Release 1.0.1";
 
         // For Tester Builds
         //public static string VersionName = "Tester Build 1 Fix 2";

@@ -199,10 +199,10 @@ WinForms.</value>
 упрощённом списке) справа в конце.</value>
   </data>
   <data name="labelHiResPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>127, 13</value>
+    <value>169, 13</value>
   </data>
   <data name="labelHiResPath.Text" xml:space="preserve">
-    <value>Hi-res-папка эмулятора:</value>
+    <value>Папка hi-res-текстур эмулятора:</value>
   </data>
   <data name="labelHiResPath.ToolTip" xml:space="preserve">
     <value>Это путь папки в Вашем эмуляторе, которая хранит
@@ -253,6 +253,17 @@ WinForms.</value>
 при нажатии кнопки «Текстур-пак».
 Внутреннее название у обычного Супер
 Марио 64 — «SUPER MARIO 64».</value>
+  </data>
+  <data name="checkLinuxCompatibility.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 17</value>
+  </data>
+  <data name="checkLinuxCompatibility.Text" xml:space="preserve">
+    <value>Совместимость с Linux (требует перезапуск)</value>
+  </data>
+  <data name="checkLinuxCompatibility.ToolTip" xml:space="preserve">
+    <value>Включает некоторые оптимизации, чтобы адд-он
+лучше работал на Linux через Wine. Если Вы на
+Windows, то Вам не нужно включать эту опцию.</value>
   </data>
   <data name="tabGeneral.Text" xml:space="preserve">
     <value>Настройки</value>
@@ -307,6 +318,10 @@ WinForms.</value>
         AAAAAAAA/D8AAOw3AADAAwAAgAEAAMADAADAAwAAAAAAAAAAAAAAAAAAAAAAAMADAADAAwAAgAEAAMAD
         AADsNwAA/D8AAA==
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Настройки</value>

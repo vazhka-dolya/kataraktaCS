@@ -117,36 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MenuFLP.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMainAndTexture.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="treeView1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitTextureListAndView.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="flowLayoutPanel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitTextureListAndView.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitTextureListAndView.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMainAndTexture.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMainAndTexture.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitRestAndTools.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ToolApplyRAM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -220,32 +190,41 @@
   <data name="ToolSearchButton.Text" xml:space="preserve">
     <value>Поиск</value>
   </data>
-  <data name="toolStrip1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="menuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 19</value>
   </data>
-  <data name="splitRestAndTools.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitRestAndTools.ToolTip" xml:space="preserve">
-    <value />
+  <data name="menuOptions.Text" xml:space="preserve">
+    <value>Параметры</value>
   </data>
   <data name="menuOpenKataraktaCSFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="menuOpenKataraktaCSFolder.Text" xml:space="preserve">
     <value>Открыть папку kataraktaCS</value>
   </data>
   <data name="menuOpenQuad64.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="menuOpenQuad64.Text" xml:space="preserve">
     <value>Открыть Поиск текстур</value>
   </data>
   <data name="menuOpenTemplateManager.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="menuOpenTemplateManager.Text" xml:space="preserve">
     <value>Открыть Редактор шаблонов</value>
+  </data>
+  <data name="menuClearHiRes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="menuClearHiRes.Text" xml:space="preserve">
+    <value>Очистить папку hi-res-текстур</value>
+  </data>
+  <data name="menuUtilities.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 22</value>
+  </data>
+  <data name="menuUtilities.Text" xml:space="preserve">
+    <value>Утилиты</value>
   </data>
   <data name="menuConvertTemplates.Size" type="System.Drawing.Size, System.Drawing">
     <value>369, 22</value>
@@ -259,35 +238,23 @@
 конвертирует любые найденные старые шаблоны
 и настройки в новую структуру.</value>
   </data>
-  <data name="menuUtilities.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="menuUtilities.Text" xml:space="preserve">
-    <value>Утилиты</value>
-  </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 6</value>
+    <value>237, 6</value>
   </data>
   <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="menuSettings.Text" xml:space="preserve">
     <value>Настройки</value>
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>232, 6</value>
+    <value>237, 6</value>
   </data>
   <data name="menuStayOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
+    <value>240, 22</value>
   </data>
   <data name="menuStayOnTop.Text" xml:space="preserve">
-    <value>Всегда сверху</value>
-  </data>
-  <data name="menuOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 19</value>
-  </data>
-  <data name="menuOptions.Text" xml:space="preserve">
-    <value>Параметры</value>
+    <value>Поверх других окон</value>
   </data>
   <data name="menuAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 19</value>
@@ -304,20 +271,8 @@
   <data name="menuUpdatesRefresh.Text" xml:space="preserve">
     <value>Перепроверить версию</value>
   </data>
-  <data name="menuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMenuAndRest.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMenuAndRest.Panel2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMenuAndRest.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TextureList.ToolTip" xml:space="preserve">
-    <value />
+  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 220</value>
   </data>
   <data name="contextApplyTexture.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
@@ -349,6 +304,17 @@
   <data name="SeparatorHotkeys.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 6</value>
   </data>
+  <data name="contextRemoveBorders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>239, 22</value>
+  </data>
+  <data name="contextRemoveBorders.Text" xml:space="preserve">
+    <value>Исправить границы текстур</value>
+  </data>
+  <data name="contextRemoveBorders.ToolTipText" xml:space="preserve">
+    <value>Эта опция исправляет неправильные границы,
+которые Вы могли видеть у некоторых текстур,
+например чёрные границы у текстур глаз.</value>
+  </data>
   <data name="contextRemoveBordersSelected.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 22</value>
   </data>
@@ -361,16 +327,11 @@
   <data name="contextRemoveBordersSelectedAndSub.Text" xml:space="preserve">
     <value>У выбранных текстур и их подпапок</value>
   </data>
-  <data name="contextRemoveBorders.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="contextCache.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
-  <data name="contextRemoveBorders.Text" xml:space="preserve">
-    <value>Исправить границы текстур</value>
-  </data>
-  <data name="contextRemoveBorders.ToolTipText" xml:space="preserve">
-    <value>Эта опция исправляет неправильные границы,
-которые Вы могли видеть у некоторых текстур,
-например чёрные границы у текстур глаз.</value>
+  <data name="contextCache.Text" xml:space="preserve">
+    <value>Кэш</value>
   </data>
   <data name="contextCacheGenSelected.Size" type="System.Drawing.Size, System.Drawing">
     <value>359, 22</value>
@@ -399,12 +360,6 @@
   <data name="contextCacheClearSelectedAndSub.Text" xml:space="preserve">
     <value>Очистить у выбранных текстур и их подпапок</value>
   </data>
-  <data name="contextCache.Size" type="System.Drawing.Size, System.Drawing">
-    <value>239, 22</value>
-  </data>
-  <data name="contextCache.Text" xml:space="preserve">
-    <value>Кэш</value>
-  </data>
   <data name="contextSwapTemplates.Size" type="System.Drawing.Size, System.Drawing">
     <value>239, 22</value>
   </data>
@@ -425,12 +380,6 @@
   </data>
   <data name="contextEditTemplates.Text" xml:space="preserve">
     <value>Открыть Редактор шаблонов</value>
-  </data>
-  <data name="contextMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 220</value>
-  </data>
-  <data name="contextMenu.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -587,8 +536,5 @@
         AADwfwAA8A8AAOAHAADgAwAA4AMAAOADAADgBwAAwAMAAMADAADABwAAwA8AAMAfAADAfwAA8P8AAP//
         AAA=
 </value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

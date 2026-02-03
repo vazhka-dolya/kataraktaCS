@@ -41,6 +41,7 @@
             this.labelHiResPath = new System.Windows.Forms.Label();
             this.labelOtherGames = new System.Windows.Forms.Label();
             this.labelTexturePackMainGame = new System.Windows.Forms.Label();
+            this.checkLinuxCompatibility = new System.Windows.Forms.CheckBox();
             this.tabGeneral = new System.Windows.Forms.TabPage();
             this.groupTexturePack = new System.Windows.Forms.GroupBox();
             this.buttonAddGame = new System.Windows.Forms.Button();
@@ -95,7 +96,6 @@
             this.toolTip1.AutoPopDelay = 32767;
             this.toolTip1.InitialDelay = 300;
             this.toolTip1.ReshowDelay = 100;
-            this.toolTip1.ToolTipTitle = "Объяснение";
             // 
             // checkTreeViewSimplified
             // 
@@ -149,6 +149,13 @@
             this.labelTexturePackMainGame.Cursor = System.Windows.Forms.Cursors.Help;
             this.labelTexturePackMainGame.Name = "labelTexturePackMainGame";
             this.toolTip1.SetToolTip(this.labelTexturePackMainGame, resources.GetString("labelTexturePackMainGame.ToolTip"));
+            // 
+            // checkLinuxCompatibility
+            // 
+            resources.ApplyResources(this.checkLinuxCompatibility, "checkLinuxCompatibility");
+            this.checkLinuxCompatibility.Name = "checkLinuxCompatibility";
+            this.toolTip1.SetToolTip(this.checkLinuxCompatibility, resources.GetString("checkLinuxCompatibility.ToolTip"));
+            this.checkLinuxCompatibility.UseVisualStyleBackColor = true;
             // 
             // tabGeneral
             // 
@@ -226,6 +233,7 @@
             // groupMisc
             // 
             resources.ApplyResources(this.groupMisc, "groupMisc");
+            this.groupMisc.Controls.Add(this.checkLinuxCompatibility);
             this.groupMisc.Controls.Add(this.groupBackgroundColor);
             this.groupMisc.Controls.Add(this.checkStayOnTop);
             this.groupMisc.Name = "groupMisc";
@@ -337,5 +345,6 @@
         private Controls.kataraktaListView.kataraktaListView listViewOtherGames;
         private System.Windows.Forms.Button buttonAddGame;
         private System.Windows.Forms.Button buttonRemoveSelected;
+        private System.Windows.Forms.CheckBox checkLinuxCompatibility;
     }
 }

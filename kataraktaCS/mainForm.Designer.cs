@@ -57,6 +57,7 @@ namespace kataraktaCS
             this.menuOpenKataraktaCSFolder = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOpenQuad64 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOpenTemplateManager = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuClearHiRes = new System.Windows.Forms.ToolStripMenuItem();
             this.menuUtilities = new System.Windows.Forms.ToolStripMenuItem();
             this.menuConvertTemplates = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
@@ -317,6 +318,7 @@ namespace kataraktaCS
             this.menuOpenKataraktaCSFolder,
             this.menuOpenQuad64,
             this.menuOpenTemplateManager,
+            this.menuClearHiRes,
             this.menuUtilities,
             this.toolStripSeparator6,
             this.menuSettings,
@@ -342,6 +344,12 @@ namespace kataraktaCS
             resources.ApplyResources(this.menuOpenTemplateManager, "menuOpenTemplateManager");
             this.menuOpenTemplateManager.Name = "menuOpenTemplateManager";
             this.menuOpenTemplateManager.Click += new System.EventHandler(this.menuOpenTemplateManager_Click);
+            // 
+            // menuClearHiRes
+            // 
+            resources.ApplyResources(this.menuClearHiRes, "menuClearHiRes");
+            this.menuClearHiRes.Name = "menuClearHiRes";
+            this.menuClearHiRes.Click += new System.EventHandler(this.menuClearHiRes_Click);
             // 
             // menuUtilities
             // 
@@ -412,8 +420,9 @@ namespace kataraktaCS
             // 
             // toolTip1
             // 
+            this.toolTip1.AutomaticDelay = 0;
             this.toolTip1.AutoPopDelay = 32767;
-            this.toolTip1.InitialDelay = 500;
+            this.toolTip1.InitialDelay = 300;
             this.toolTip1.ReshowDelay = 100;
             // 
             // contextMenu
@@ -644,6 +653,7 @@ namespace kataraktaCS
         private ToolStripMenuItem contextRemoveBordersSelected;
         private ToolStripMenuItem contextRemoveBordersSelectedAndSub;
         private ToolStripMenuItem contextSwapTemplates;
+        private ToolStripMenuItem menuClearHiRes;
     }
 }
 

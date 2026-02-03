@@ -123,6 +123,9 @@
   <data name="groupTexturePack.ToolTip" xml:space="preserve">
     <value />
   </data>
+  <data name="&gt;&gt;buttonRemoveSelected.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;checkStayOnTop.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -205,9 +208,6 @@ file tends to cause problems.</value>
   <data name="&gt;&gt;checkTreeViewDisplayCache.Name" xml:space="preserve">
     <value>checkTreeViewDisplayCache</value>
   </data>
-  <data name="groupTexturePack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>506, 209</value>
-  </data>
   <data name="checkTreeViewDisplayCache.Text" xml:space="preserve">
     <value>Indicate if a texture is cached for RAM.</value>
   </data>
@@ -220,8 +220,8 @@ file tends to cause problems.</value>
   <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
     <value>402, 488</value>
   </data>
-  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;groupBackgroundColor.Parent" xml:space="preserve">
+    <value>groupMisc</value>
   </data>
   <data name="tabSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>526, 474</value>
@@ -232,11 +232,11 @@ file tends to cause problems.</value>
   <data name="checkTreeViewDisplayCache.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;checkTreeViewSimplified.Name" xml:space="preserve">
-    <value>checkTreeViewSimplified</value>
-  </data>
   <data name="buttonResetBackgroundColor.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 49</value>
+  </data>
+  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
   <data name="&gt;&gt;buttonAddGame.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -249,6 +249,9 @@ file tends to cause problems.</value>
   </data>
   <data name="&gt;&gt;groupTexturePack.Parent" xml:space="preserve">
     <value>tabGeneral</value>
+  </data>
+  <data name="&gt;&gt;checkLinuxCompatibility.Parent" xml:space="preserve">
+    <value>groupMisc</value>
   </data>
   <data name="labelTexturePackMainGame.Text" xml:space="preserve">
     <value>Main game's name:</value>
@@ -265,6 +268,9 @@ file tends to cause problems.</value>
   <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;checkLinuxCompatibility.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="checkStayOnTop.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -280,8 +286,8 @@ file tends to cause problems.</value>
   <data name="buttonAddGame.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 71</value>
   </data>
-  <data name="tabSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="checkLinuxCompatibility.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="buttonApply.Text" xml:space="preserve">
     <value>Apply</value>
@@ -313,8 +319,8 @@ icon) next to textures that are cached for RAM.</value>
   <data name="checkTreeViewSimplified.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 17</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>frmSettings</value>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;labelTexturePackMainGame.Name" xml:space="preserve">
     <value>labelTexturePackMainGame</value>
@@ -330,6 +336,9 @@ icon) next to textures that are cached for RAM.</value>
   </data>
   <data name="groupMisc.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupTexturePack.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 233</value>
@@ -379,20 +388,17 @@ icon) next to textures that are cached for RAM.</value>
   <data name="tabSettings.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="textBoxTexturePackHiResPath.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
   </data>
   <data name="labelOtherGames.Text" xml:space="preserve">
     <value>Additional games:</value>
   </data>
-  <data name="&gt;&gt;checkTreeViewDisplayIcons.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="checkTreeViewDisplayCache.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 17</value>
   </data>
-  <data name="buttonBackgroundColor.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="buttonHiResPath.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="groupTreeView.Text" xml:space="preserve">
     <value>Texture list settings</value>
@@ -415,14 +421,14 @@ icon) next to textures that are cached for RAM.</value>
   <data name="&gt;&gt;buttonBackgroundColor.Name" xml:space="preserve">
     <value>buttonBackgroundColor</value>
   </data>
-  <data name="textBoxTexturePackHiResPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 32</value>
+  <data name="&gt;&gt;checkTreeViewSimplified.Name" xml:space="preserve">
+    <value>checkTreeViewSimplified</value>
   </data>
   <data name="&gt;&gt;labelOtherGames.Name" xml:space="preserve">
     <value>labelOtherGames</value>
   </data>
-  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;groupTexturePack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonRemoveSelected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -456,23 +462,20 @@ in the list.</value>
   <data name="buttonHiResPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="buttonAddGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 63</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="&gt;&gt;buttonResetBackgroundColor.Parent" xml:space="preserve">
     <value>groupBackgroundColor</value>
   </data>
-  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
-    <value>buttonClose</value>
+  <data name="groupBackgroundColor.Text" xml:space="preserve">
+    <value>Texture background</value>
   </data>
   <data name="&gt;&gt;labelTexturePackMainGame.Parent" xml:space="preserve">
     <value>groupTexturePack</value>
   </data>
   <data name="&gt;&gt;groupBackgroundColor.Name" xml:space="preserve">
     <value>groupBackgroundColor</value>
-  </data>
-  <data name="groupBackgroundColor.Text" xml:space="preserve">
-    <value>Texture background</value>
   </data>
   <data name="&gt;&gt;buttonApply.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -489,14 +492,14 @@ in the list.</value>
   <data name="buttonBackgroundColor.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 49</value>
   </data>
-  <data name="textBoxTexturePackMainGame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 20</value>
+  <data name="buttonBackgroundColor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;labelTexturePackMainGame.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="buttonAddGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 63</value>
   </data>
   <data name="&gt;&gt;buttonApply.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -528,6 +531,9 @@ in the list.</value>
   <data name="&gt;&gt;tabGeneral.Parent" xml:space="preserve">
     <value>tabSettings</value>
   </data>
+  <data name="textBoxTexturePackHiResPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
   <data name="&gt;&gt;buttonRemoveSelected.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -540,8 +546,8 @@ in the list.</value>
   <data name="labelTexturePackMainGame.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="checkTreeViewDisplayIcons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
   </data>
   <data name="&gt;&gt;labelOtherGames.Parent" xml:space="preserve">
     <value>groupTexturePack</value>
@@ -564,11 +570,14 @@ in the list.</value>
   <data name="&gt;&gt;buttonResetBackgroundColor.Name" xml:space="preserve">
     <value>buttonResetBackgroundColor</value>
   </data>
+  <data name="textBoxTexturePackMainGame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;listViewOtherGames.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaListView.kataraktaListView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>kataraktaCS.Controls.kataraktaListView.kataraktaListView, kataraktaCS, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;groupBackgroundColor.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -588,8 +597,11 @@ in the list.</value>
   <data name="&gt;&gt;buttonHiResPath.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="buttonApply.ToolTip" xml:space="preserve">
-    <value />
+  <data name="textBoxTexturePackMainGame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="&gt;&gt;checkLinuxCompatibility.Name" xml:space="preserve">
+    <value>checkLinuxCompatibility</value>
   </data>
   <data name="tabGeneral.Text" xml:space="preserve">
     <value>Settings</value>
@@ -597,11 +609,11 @@ in the list.</value>
   <data name="groupTreeView.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 115</value>
   </data>
-  <data name="&gt;&gt;checkTreeViewDisplayIcons.Name" xml:space="preserve">
-    <value>checkTreeViewDisplayIcons</value>
+  <data name="checkLinuxCompatibility.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
   </data>
-  <data name="checkTreeViewDisplayIcons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 17</value>
+  <data name="buttonApply.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="labelHiResPath.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 13</value>
@@ -618,6 +630,9 @@ in the list.</value>
   <data name="&gt;&gt;checkTreeViewDisplayCache.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="buttonClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="checkTreeViewDisplayCache.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 68</value>
   </data>
@@ -627,17 +642,22 @@ in the list.</value>
   <data name="&gt;&gt;buttonApply.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="checkLinuxCompatibility.ToolTip" xml:space="preserve">
+    <value>Enables some optimizations for the add-on to work
+better on Linux through Wine. You do not need to
+enable this if you're on Windows.</value>
+  </data>
   <data name="buttonAddGame.Text" xml:space="preserve">
     <value>Add</value>
   </data>
   <data name="&gt;&gt;checkDisplayCacheOnRight.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Settings</value>
+  <data name="checkLinuxCompatibility.Text" xml:space="preserve">
+    <value>Linux Compatibility (requires relaunching)</value>
   </data>
-  <data name="&gt;&gt;groupBackgroundColor.Parent" xml:space="preserve">
-    <value>groupMisc</value>
+  <data name="&gt;&gt;tabGeneral.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="listViewOtherGames.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -660,14 +680,17 @@ in the list.</value>
   <data name="buttonAddGame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="checkTreeViewSimplified.Text" xml:space="preserve">
-    <value>Use a simplified version of the texture list</value>
+  <data name="checkLinuxCompatibility.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="checkDisplayCacheOnRight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="listViewOtherGames.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>550, 516</value>
@@ -683,9 +706,6 @@ in the list.</value>
   </data>
   <data name="&gt;&gt;buttonBackgroundColor.Parent" xml:space="preserve">
     <value>groupBackgroundColor</value>
-  </data>
-  <data name="buttonHiResPath.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="&gt;&gt;tabSettings.Name" xml:space="preserve">
     <value>tabSettings</value>
@@ -720,6 +740,9 @@ in the list.</value>
   <data name="buttonApply.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 23</value>
   </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmSettings</value>
+  </data>
   <data name="&gt;&gt;buttonApplyAndClose.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -732,8 +755,8 @@ in the list.</value>
   <data name="checkTreeViewDisplayIcons.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
+  <data name="&gt;&gt;checkTreeViewDisplayIcons.Name" xml:space="preserve">
+    <value>checkTreeViewDisplayIcons</value>
   </data>
   <data name="tabGeneral.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -744,20 +767,20 @@ in the list.</value>
   <data name="labelTexturePackMainGame.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;checkDisplayCacheOnRight.Parent" xml:space="preserve">
-    <value>groupTreeView</value>
+  <data name="checkLinuxCompatibility.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 17</value>
   </data>
   <data name="&gt;&gt;buttonBackgroundColor.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="&gt;&gt;checkStayOnTop.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="checkTreeViewSimplified.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 20</value>
   </data>
   <data name="&gt;&gt;groupBackgroundColor.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="checkStayOnTop.Text" xml:space="preserve">
     <value>Enable “Stay on top” on startup</value>
@@ -777,6 +800,9 @@ in the list.</value>
   <data name="&gt;&gt;checkStayOnTop.Name" xml:space="preserve">
     <value>checkStayOnTop</value>
   </data>
+  <data name="&gt;&gt;checkLinuxCompatibility.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;buttonAddGame.Name" xml:space="preserve">
     <value>buttonAddGame</value>
   </data>
@@ -793,6 +819,9 @@ in the list.</value>
     <value>groupTexturePack</value>
   </data>
   <data name="checkTreeViewSimplified.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkLinuxCompatibility.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="buttonRemoveSelected.ToolTip" xml:space="preserve">
@@ -821,6 +850,9 @@ in the list.</value>
   </data>
   <data name="&gt;&gt;groupTreeView.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="textBoxTexturePackHiResPath.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;checkStayOnTop.Parent" xml:space="preserve">
     <value>groupMisc</value>
@@ -856,8 +888,8 @@ of WinForms.</value>
   <data name="textBoxTexturePackHiResPath.ToolTip" xml:space="preserve">
     <value />
   </data>
-  <data name="listViewOtherGames.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
   </data>
   <data name="labelHiResPath.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -901,14 +933,17 @@ of WinForms.</value>
   <data name="buttonAddGame.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;buttonRemoveSelected.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="groupTexturePack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 209</value>
   </data>
   <data name="&gt;&gt;buttonApplyAndClose.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="tabGeneral.ToolTip" xml:space="preserve">
     <value />
+  </data>
+  <data name="checkTreeViewSimplified.Text" xml:space="preserve">
+    <value>Use a simplified version of the texture list</value>
   </data>
   <data name="buttonBackgroundColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 19</value>
@@ -922,8 +957,8 @@ of WinForms.</value>
   <data name="&gt;&gt;tabSettings.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupTexturePack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="tabGeneral.Size" type="System.Drawing.Size, System.Drawing">
     <value>518, 448</value>
@@ -934,11 +969,14 @@ of WinForms.</value>
   <data name="groupMisc.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 100</value>
   </data>
-  <data name="textBoxTexturePackMainGame.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;checkTreeViewDisplayIcons.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="checkTreeViewDisplayIcons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkDisplayCacheOnRight.Parent" xml:space="preserve">
+    <value>groupTreeView</value>
   </data>
   <data name="labelOtherGames.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 13</value>

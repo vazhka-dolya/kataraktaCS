@@ -291,7 +291,7 @@ Fuck You Want To Public License.
     <value>13</value>
   </data>
   <data name="htmlLabelAuthor.Text" xml:space="preserve">
-    <value>&lt;span style="font-size:11px;font-family:'Microsoft Sans Serif'"&gt;By DanilAstroid, aka vazhka-dolya&lt;br&gt;(&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;/span&gt;</value>
+    <value>&lt;span style="font-size:8pt;font-family:'Microsoft Sans Serif'"&gt;By DanilAstroid, aka vazhka-dolya&lt;br&gt;(&lt;a href="https://www.youtube.com/channel/UCCrO_HQsasKN7Zwlp3D8UWQ"&gt;YouTube&lt;/a&gt;, &lt;a href="https://github.com/vazhka-dolya"&gt;GitHub&lt;/a&gt;).&lt;/span&gt;</value>
   </data>
   <data name="&gt;&gt;htmlLabelAuthor.Name" xml:space="preserve">
     <value>htmlLabelAuthor</value>
@@ -315,7 +315,7 @@ Fuck You Want To Public License.
     <value>15</value>
   </data>
   <data name="htmlLabelLegalNotice.Text" xml:space="preserve">
-    <value>&lt;p style="text-align:center;font-size:10px;font-family:'Microsoft Sans Serif'"&gt;This software is not affiliated with or&lt;br&gt;endorsed by Nintendo and does not&lt;br&gt;claim ownership over any of Nintendo's&lt;br&gt;intellectual property.&lt;/p&gt;</value>
+    <value>&lt;p style="text-align:center;font-size:7.5pt;font-family:'Microsoft Sans Serif'"&gt;This software is not affiliated with or&lt;br&gt;endorsed by Nintendo and does not&lt;br&gt;claim ownership over any of Nintendo's&lt;br&gt;intellectual property.&lt;/p&gt;</value>
   </data>
   <data name="&gt;&gt;htmlLabelLegalNotice.Name" xml:space="preserve">
     <value>htmlLabelLegalNotice</value>

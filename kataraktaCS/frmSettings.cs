@@ -1,4 +1,5 @@
 ﻿using kataraktaCS.Properties;
+using M64MM.Utils;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -40,6 +41,7 @@ namespace kataraktaCS
                 listViewOtherGames.Items.Add(OtherGameName);
 
             checkStayOnTop.Checked = JSONSettings.Value<bool?>("EnableStayOnTop") ?? false;
+            checkLinuxCompatibility.Checked = JSONSettings.Value<bool?>("LinuxCompatibility") ?? false;
 
             checkTreeViewSimplified.Checked = JSONSettings.Value<bool?>("TreeView_UseSimplifiedTreeView") ?? false;
             checkTreeViewDisplayIcons.Checked = JSONSettings.Value<bool?>("TreeView_DisplayIcons") ?? true;
@@ -63,6 +65,7 @@ namespace kataraktaCS
                 TexturePack_MainGameName = textBoxTexturePackMainGame.Text,
                 TexturePack_OtherGamesNames = OtherGamesNames,
                 EnableStayOnTop = checkStayOnTop.Checked,
+                LinuxCompatibility = checkLinuxCompatibility.Checked,
                 TreeView_UseSimplifiedTreeView = checkTreeViewSimplified.Checked,
                 TreeView_DisplayIcons = checkTreeViewDisplayIcons.Checked,
                 TreeView_DisplayCache = checkTreeViewDisplayCache.Checked,

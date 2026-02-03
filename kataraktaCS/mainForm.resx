@@ -165,7 +165,7 @@
     <value>25</value>
   </data>
   <data name="menuOpenKataraktaCSFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="splitMainAndTexture.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -178,6 +178,9 @@
   </data>
   <data name="&gt;&gt;menuOpenTemplateManager.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SeparatorTP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="flowLayoutPanel1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
@@ -200,6 +203,9 @@
   </data>
   <data name="&gt;&gt;SeparatorRAM.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuClearHiRes.Text" xml:space="preserve">
+    <value>Clear Hi-res Texture Folder</value>
   </data>
   <data name="contextHotkeyAdd.Text" xml:space="preserve">
     <value>Add Hotkey (RAM-only)</value>
@@ -225,7 +231,7 @@
   <data name="ToolApplyRAM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        wQAADsEBuJFr7QAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
         RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
         zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
         9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
@@ -246,8 +252,8 @@
   <data name="menuAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 19</value>
   </data>
-  <data name="&gt;&gt;SeparatorTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="treeView1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;MenuFLP.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -268,22 +274,25 @@
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="menuOpenTemplateManager.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="&gt;&gt;contextCacheGenSelectedAndSub.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="contextMenu.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="splitMenuAndRest.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="MenuFLP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
+  </data>
+  <data name="menuStrip1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;contextShowInExplorer.Name" xml:space="preserve">
     <value>contextShowInExplorer</value>
   </data>
   <data name="ToolSearchButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
+  </data>
+  <data name="splitMenuAndRest.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="menuUpdates.Text" xml:space="preserve">
     <value>Checking…</value>
@@ -292,13 +301,10 @@
     <value>splitTextureListAndView</value>
   </data>
   <data name="menuUtilities.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="&gt;&gt;contextMenu.Name" xml:space="preserve">
     <value>contextMenu</value>
-  </data>
-  <data name="&gt;&gt;contextHotkeyRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;contextCacheClearSelectedAndSub.Name" xml:space="preserve">
     <value>contextCacheClearSelectedAndSub</value>
@@ -327,11 +333,14 @@
   <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
     <value>toolStripSeparator6</value>
   </data>
-  <data name="&gt;&gt;SeparatorHotkeys.Name" xml:space="preserve">
-    <value>SeparatorHotkeys</value>
+  <data name="splitMainAndTexture.Panel1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="&gt;&gt;menuUpdates.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFLP.Name" xml:space="preserve">
+    <value>MenuFLP</value>
   </data>
   <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
     <value>splitRestAndTools.Panel2</value>
@@ -345,14 +354,17 @@
   <data name="&gt;&gt;menuStayOnTop.Name" xml:space="preserve">
     <value>menuStayOnTop</value>
   </data>
+  <data name="&gt;&gt;SeparatorUtilities.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;menuUpdatesRefresh.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuConvertTemplates.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextHotkeyAdd.Name" xml:space="preserve">
-    <value>contextHotkeyAdd</value>
+  <data name="&gt;&gt;splitRestAndTools.Panel1.Parent" xml:space="preserve">
+    <value>splitRestAndTools</value>
   </data>
   <data name="contextMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -374,6 +386,9 @@
   </data>
   <data name="&gt;&gt;ToolRefresh.Name" xml:space="preserve">
     <value>ToolRefresh</value>
+  </data>
+  <data name="splitRestAndTools.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 399</value>
   </data>
   <data name="&gt;&gt;splitTextureListAndView.Panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -406,7 +421,7 @@
     <value>223, 22</value>
   </data>
   <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaToolStrip.kataraktaToolStrip, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>kataraktaCS.Controls.kataraktaToolStrip.kataraktaToolStrip, kataraktaCS, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -426,17 +441,14 @@
   <data name="&gt;&gt;menuUpdatesRefresh.Name" xml:space="preserve">
     <value>menuUpdatesRefresh</value>
   </data>
-  <data name="MenuFLP.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;contextHotkeyRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="treeView1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="&gt;&gt;splitMenuAndRest.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="splitRestAndTools.Panel2.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="DropDownApplyTPOther.ToolTipText" xml:space="preserve">
     <value>Apply texture pack with a different filename</value>
@@ -454,7 +466,7 @@
     <value />
   </data>
   <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>210, 6</value>
   </data>
   <data name="contextApplyTexture.Text" xml:space="preserve">
     <value>Apply in RAM</value>
@@ -487,7 +499,7 @@
     <value />
   </data>
   <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 6</value>
+    <value>210, 6</value>
   </data>
   <data name="contextHotkeyRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>223, 22</value>
@@ -495,17 +507,11 @@
   <data name="contextCacheGenSelectedAndSub.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 22</value>
   </data>
-  <data name="splitMainAndTexture.Panel1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;SeparatorUtilities.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuOpenTemplateManager.Text" xml:space="preserve">
+    <value>Open Template Manager</value>
   </data>
   <data name="flowLayoutPanel1.WrapContents" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="ToolApplyTP.ToolTipText" xml:space="preserve">
-    <value>Apply as a texture pack</value>
   </data>
   <data name="&gt;&gt;splitTextureListAndView.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -531,8 +537,8 @@
   <data name="&gt;&gt;splitMainAndTexture.Panel1.Parent" xml:space="preserve">
     <value>splitMainAndTexture</value>
   </data>
-  <data name="&gt;&gt;splitRestAndTools.Panel1.Parent" xml:space="preserve">
-    <value>splitRestAndTools</value>
+  <data name="contextHotkeyEdit.Text" xml:space="preserve">
+    <value>Edit Hotkey (RAM-only)</value>
   </data>
   <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -549,8 +555,8 @@
   <data name="&gt;&gt;splitMenuAndRest.Panel1.Parent" xml:space="preserve">
     <value>splitMenuAndRest</value>
   </data>
-  <data name="&gt;&gt;splitMenuAndRest.Panel2.Name" xml:space="preserve">
-    <value>splitMenuAndRest.Panel2</value>
+  <data name="ToolApplyTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 21</value>
   </data>
   <data name="contextShowInExplorer.Text" xml:space="preserve">
     <value>Show in Explorer</value>
@@ -570,9 +576,6 @@ and folder settings to the new structure.</value>
   <data name="&gt;&gt;splitTextureListAndView.Panel2.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="ImageList.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
   <data name="&gt;&gt;splitTextureListAndView.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -587,6 +590,9 @@ and folder settings to the new structure.</value>
   </data>
   <data name="menuConvertTemplates.Text" xml:space="preserve">
     <value>Convert Old Templates &amp;&amp; Folder Settings</value>
+  </data>
+  <data name="&gt;&gt;SeparatorHotkeys.Name" xml:space="preserve">
+    <value>SeparatorHotkeys</value>
   </data>
   <data name="&gt;&gt;splitMenuAndRest.Parent" xml:space="preserve">
     <value>$this</value>
@@ -624,6 +630,9 @@ and folder settings to the new structure.</value>
   <data name="&gt;&gt;ToolSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;menuClearHiRes.Name" xml:space="preserve">
+    <value>menuClearHiRes</value>
+  </data>
   <data name="ToolApplyRAM.ToolTipText" xml:space="preserve">
     <value>Apply in RAM</value>
   </data>
@@ -635,6 +644,9 @@ and folder settings to the new structure.</value>
   </data>
   <data name="ToolSearchButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 21</value>
+  </data>
+  <data name="&gt;&gt;menuClearHiRes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="DropDownApplyTPOther.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
@@ -678,8 +690,8 @@ and folder settings to the new structure.</value>
   <data name="SeparatorRAM.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 24</value>
   </data>
-  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
-    <value>treeView1</value>
+  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
   <data name="&gt;&gt;MenuFLP.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -709,7 +721,7 @@ and folder settings to the new structure.</value>
     <value>Cache</value>
   </data>
   <data name="menuStayOnTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="menuConvertTemplates.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 22</value>
@@ -719,14 +731,17 @@ and folder settings to the new structure.</value>
 seen some textures have, e.g. black borders around
 eye textures.</value>
   </data>
-  <data name="menuStrip1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;treeView1.Name" xml:space="preserve">
+    <value>treeView1</value>
   </data>
   <data name="&gt;&gt;contextCacheClearSelected.Name" xml:space="preserve">
     <value>contextCacheClearSelected</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>splitMenuAndRest.Panel1</value>
+  </data>
+  <data name="&gt;&gt;menuAbout.Name" xml:space="preserve">
+    <value>menuAbout</value>
   </data>
   <data name="&gt;&gt;splitMainAndTexture.Panel2.Name" xml:space="preserve">
     <value>splitMainAndTexture.Panel2</value>
@@ -742,9 +757,6 @@ eye textures.</value>
   </data>
   <data name="splitTextureListAndView.ToolTip" xml:space="preserve">
     <value />
-  </data>
-  <data name="menuOpenTemplateManager.Text" xml:space="preserve">
-    <value>Open Template Manager</value>
   </data>
   <data name="&gt;&gt;contextHotkeyEdit.Name" xml:space="preserve">
     <value>contextHotkeyEdit</value>
@@ -785,11 +797,17 @@ eye textures.</value>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>mainForm</value>
   </data>
+  <data name="&gt;&gt;splitMenuAndRest.Name" xml:space="preserve">
+    <value>splitMenuAndRest</value>
+  </data>
   <data name="&gt;&gt;MenuFLP.Parent" xml:space="preserve">
     <value>splitMainAndTexture.Panel1</value>
   </data>
   <data name="&gt;&gt;splitRestAndTools.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuClearHiRes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 22</value>
   </data>
   <data name="SeparatorTP.Size" type="System.Drawing.Size, System.Drawing">
     <value>6, 24</value>
@@ -797,14 +815,14 @@ eye textures.</value>
   <data name="&gt;&gt;menuSettings.Name" xml:space="preserve">
     <value>menuSettings</value>
   </data>
+  <data name="&gt;&gt;splitMenuAndRest.Panel2.Name" xml:space="preserve">
+    <value>splitMenuAndRest.Panel2</value>
+  </data>
   <data name="&gt;&gt;splitMenuAndRest.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;splitRestAndTools.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="menuStayOnTop.Text" xml:space="preserve">
-    <value>Stay on top</value>
+    <value>Stay on Top</value>
   </data>
   <data name="&gt;&gt;splitMenuAndRest.Panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -983,7 +1001,7 @@ eye textures.</value>
   <data name="DropDownApplyTPOther.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        wQAADsEBuJFr7QAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
         RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
         zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
         9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
@@ -996,7 +1014,7 @@ eye textures.</value>
 </value>
   </data>
   <data name="&gt;&gt;treeView1.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaTreeView.kataraktaTreeView, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>kataraktaCS.Controls.kataraktaTreeView.kataraktaTreeView, kataraktaCS, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="splitTextureListAndView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1019,14 +1037,14 @@ eye textures.</value>
   <data name="&gt;&gt;SeparatorRAM.Name" xml:space="preserve">
     <value>SeparatorRAM</value>
   </data>
-  <data name="treeView1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="&gt;&gt;treeView1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
     <value>splitTextureListAndView.Panel2</value>
+  </data>
+  <data name="MenuFLP.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;SeparatorHotkeys.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1035,7 +1053,7 @@ eye textures.</value>
     <value>Check for Updates again</value>
   </data>
   <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="ToolApplyTP.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1070,9 +1088,6 @@ eye textures.</value>
   <data name="&gt;&gt;contextMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
@@ -1080,13 +1095,16 @@ eye textures.</value>
     <value>71, 21</value>
   </data>
   <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>kataraktaCS.Controls.kataraktaMenuStrip.kataraktaMenuStrip, kataraktaCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>kataraktaCS.Controls.kataraktaMenuStrip.kataraktaMenuStrip, kataraktaCS, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="menuUpdates.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 19</value>
   </data>
   <data name="SeparatorApply.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
+  </data>
+  <data name="&gt;&gt;contextHotkeyAdd.Name" xml:space="preserve">
+    <value>contextHotkeyAdd</value>
   </data>
   <data name="contextCacheGenSelectedAndSub.Text" xml:space="preserve">
     <value>Generate for Selected Textures &amp;&amp; Subfolders</value>
@@ -1107,7 +1125,7 @@ eye textures.</value>
     <value>0, 0</value>
   </data>
   <data name="menuOpenQuad64.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 22</value>
+    <value>213, 22</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>kataraktaCS</value>
@@ -1138,9 +1156,6 @@ eye textures.</value>
   </data>
   <data name="&gt;&gt;menuOpenQuad64.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ToolApplyTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 21</value>
   </data>
   <data name="&gt;&gt;menuOpenKataraktaCSFolder.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1181,11 +1196,11 @@ eye textures.</value>
   <data name="&gt;&gt;contextHotkeyAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="splitRestAndTools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>445, 399</value>
+  <data name="&gt;&gt;menuUpdates.Name" xml:space="preserve">
+    <value>menuUpdates</value>
   </data>
-  <data name="MenuFLP.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="splitRestAndTools.Panel2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="TextureList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1211,11 +1226,8 @@ eye textures.</value>
   <data name="splitMenuAndRest.Size" type="System.Drawing.Size, System.Drawing">
     <value>445, 428</value>
   </data>
-  <data name="&gt;&gt;menuUpdates.Name" xml:space="preserve">
-    <value>menuUpdates</value>
-  </data>
-  <data name="&gt;&gt;menuAbout.Name" xml:space="preserve">
-    <value>menuAbout</value>
+  <data name="&gt;&gt;splitRestAndTools.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;splitMainAndTexture.Panel1.Type" xml:space="preserve">
     <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1226,7 +1238,7 @@ eye textures.</value>
   <data name="ToolApplyTP.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
+        wQAADsEBuJFr7QAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
         RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
         zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
         9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
@@ -1277,8 +1289,8 @@ eye textures.</value>
   <data name="&gt;&gt;splitRestAndTools.Panel2.Name" xml:space="preserve">
     <value>splitRestAndTools.Panel2</value>
   </data>
-  <data name="contextHotkeyEdit.Text" xml:space="preserve">
-    <value>Edit Hotkey (RAM-only)</value>
+  <data name="ToolApplyTP.ToolTipText" xml:space="preserve">
+    <value>Apply as a texture pack</value>
   </data>
   <data name="&gt;&gt;contextApplyTexture.Name" xml:space="preserve">
     <value>contextApplyTexture</value>
@@ -1304,8 +1316,8 @@ eye textures.</value>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="&gt;&gt;MenuFLP.Name" xml:space="preserve">
-    <value>MenuFLP</value>
+  <data name="ImageList.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
   </data>
   <data name="&gt;&gt;splitMenuAndRest.Panel1.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1316,8 +1328,8 @@ eye textures.</value>
   <data name="contextSwapTemplates.Text" xml:space="preserve">
     <value>Quick Swap Templates</value>
   </data>
-  <data name="&gt;&gt;splitMenuAndRest.Name" xml:space="preserve">
-    <value>splitMenuAndRest</value>
+  <data name="contextMenu.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>128, 12</value>

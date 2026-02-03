@@ -54,6 +54,7 @@ namespace kataraktaCS
         public string HiResTexturePath = "";
         public string MainGameName = "";
         public List<string> OtherGamesNames = new List<string>();
+        public bool LinuxCompatibility = false;
 
         public mainForm()
         {
@@ -133,6 +134,12 @@ namespace kataraktaCS
                 default:
                     break;
             }
+            if (LinuxCompatibility)
+            {
+                // For some reason, these tooltips act weirdly on Linux
+                menuConvertTemplates.ToolTipText = "";
+                contextRemoveBorders.ToolTipText = "";
+            }
         }
         private void CreateSettings()
         {
@@ -142,6 +149,7 @@ namespace kataraktaCS
                 TexturePack_MainGameName = "SUPER MARIO 64",
                 TexturePack_OtherGamesNames = Array.Empty<string>(),
                 EnableStayOnTop = false,
+                LinuxCompatibility = false,
                 TreeView_UseSimplifiedTreeView = false,
                 TreeView_DisplayIcons = true,
                 TreeView_DisplayCache = false,
@@ -166,6 +174,7 @@ namespace kataraktaCS
         {
             JObject JSONSettings = JObject.Parse(File.ReadAllText(MainDefinitions.SettingsPath));
 
+            LinuxCompatibility = JSONSettings.Value<bool?>("LinuxCompatibility") ?? false;
             OptionUseSimplifiedTreeView = JSONSettings.Value<bool?>("TreeView_UseSimplifiedTreeView") ?? false;
             OptionDisplayIcons = JSONSettings.Value<bool?>("TreeView_DisplayIcons") ?? true;
             OptionDisplayCache = JSONSettings.Value<bool?>("TreeView_DisplayCache") ?? false;
@@ -236,10 +245,14 @@ namespace kataraktaCS
                     FoundSelectedFolder = newMainFolder;
                 }
             }
+
             if (FoundSelectedFolder != null)
-            {
                 OpenMainFolder(FoundSelectedFolder);
-            }
+
+            if (HiResTexturePath != "")
+                menuClearHiRes.Visible = true;
+            else
+                menuClearHiRes.Visible = false;
 
             if (!OptionUseSimplifiedTreeView)
             {
@@ -296,6 +309,17 @@ namespace kataraktaCS
                     (splitMenuAndRest.SplitterDistance);
                 splitMainAndTexture.SplitterDistance = AdjustDPIInt
                     (splitMainAndTexture.SplitterDistance);
+                switch (LinuxCompatibility)
+                {
+                    default:
+                        splitMainAndTexture.SplitterDistance = AdjustDPIInt
+                            (splitMainAndTexture.SplitterDistance);
+                        break;
+                    case true:
+                        splitMainAndTexture.SplitterDistance = AdjustDPIInt
+                            (splitMainAndTexture.SplitterDistance + 5);
+                        break;
+                }
                 splitTextureListAndView.SplitterDistance =
                     splitTextureListAndView.Width - AdjustDPIInt
                     (splitTextureListAndView.Width - splitTextureListAndView.SplitterDistance);
@@ -305,7 +329,7 @@ namespace kataraktaCS
             }
 
             treeView1.ImageList.ImageSize = new Size(AdjustDPIInt(16), AdjustDPIInt(16));
-            treeView1.Font = new Font("Microsoft Sans Serif",
+            treeView1.Font = new Font(treeView1.Font.FontFamily,
                 // A bit complex but ensures that the size is good on all DPIs
                 AdjustDPIInt(9) + (float)0.6 - (float)((CalculateDPIDifference() - 1) * 5),
                 GraphicsUnit.Point);
@@ -346,7 +370,8 @@ namespace kataraktaCS
                     int SecondColX = XOffset + width;
 
                     string SecondColText = ((NodeData)e.Node.Tag).HotkeyDisplay;
-                    e.Graphics.DrawString(SecondColText, treeView1.Font, Brushes.Gray, SecondColX, e.Bounds.Top + VerticalAdjust);
+
+                    e.Graphics.DrawString(SecondColText, treeView1.Font, Brushes.DimGray, SecondColX, e.Bounds.Top + VerticalAdjust);
                 };
             }
 
@@ -571,8 +596,18 @@ namespace kataraktaCS
             using (Graphics g = control.CreateGraphics())
             {
                 SizeF stringSize = g.MeasureString(control.Text, control.Font);
-                int width = (int)Math.Ceiling(stringSize.Width) + control.Padding.Horizontal + AdjustDPIInt(10);
-                int height = (int)Math.Ceiling(stringSize.Height) + control.Padding.Horizontal + AdjustDPIInt(9);
+                int width, height;
+                switch (LinuxCompatibility)
+                {
+                    default:
+                        width = (int)Math.Ceiling(stringSize.Width) + control.Padding.Horizontal + AdjustDPIInt(10);
+                        height = (int)Math.Ceiling(stringSize.Height) + control.Padding.Horizontal + AdjustDPIInt(9);
+                        break;
+                    case true:
+                        width = (int)Math.Ceiling(stringSize.Width) + control.Padding.Horizontal + AdjustDPIInt(16);
+                        height = (int)Math.Ceiling(stringSize.Height) + control.Padding.Horizontal + AdjustDPIInt(10);
+                        break;
+                }
                 control.Size = new Size(width, height);
             }
         }
@@ -1422,6 +1457,20 @@ namespace kataraktaCS
 
         #region Applying
 
+        private void ClearHiResPath()
+        {
+            // I don't know if the Windows path check is even
+            // necessary, but I guess I'll leave it just in case
+            if (!Directory.Exists(HiResTexturePath) || HiResTexturePath.StartsWith("C:\\Windows\\"))
+                return;
+
+            foreach (var file in Directory.GetFiles(HiResTexturePath))
+                File.Delete(file);
+
+            foreach (var dir in Directory.GetDirectories(HiResTexturePath))
+                Directory.Delete(dir, true); // true = recursive
+        }
+
         private void ApplyTPButton(string GameName, string SpecificPathToUse = "")
         {
             if (SpecificPathToUse == "") SpecificPathToUse =
@@ -2026,6 +2075,11 @@ namespace kataraktaCS
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
 
+        }
+
+        private void menuClearHiRes_Click(object sender, EventArgs e)
+        {
+            ClearHiResPath();
         }
     }
 }

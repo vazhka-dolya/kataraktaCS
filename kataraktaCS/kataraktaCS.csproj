@@ -186,9 +186,6 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="kataraktaCS\Mutable\Templates\DefaultCHMB.json" />
-    <None Include="kataraktaCS\Mutable\Templates\DefaultEmpty.json" />
-    <None Include="kataraktaCS\Mutable\Templates\DefaultEyes.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
