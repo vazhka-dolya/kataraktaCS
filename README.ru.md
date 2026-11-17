@@ -32,7 +32,7 @@ kataraktaCS задумана (более-менее) интуитивной дл
 </details>
 
 # Отдельная благодарность и прочее
-- [SDRM45](https://www.youtube.com/channel/UC-3gc0FmQA2_Z2-MIS5sZNQ), [SMG1](https://www.youtube.com/channel/UCSHE37xuK4tKMEIJwpXGVOw) и [14O7](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg) — тестирование и отзывы об адд-оне.
+- [SDRM45](https://www.youtube.com/channel/UC-3gc0FmQA2_Z2-MIS5sZNQ), [SMG1](https://www.youtube.com/channel/UCU5kWc-wqBOiAwDYPRvhCHg) и [14O7](https://www.youtube.com/channel/UCSHE37xuK4tKMEIJwpXGVOw) — тестирование и отзывы об адд-оне.
 
 Пожалуйста, поставьте звезду этому репозиторию, если kataraktaCS оказалась для Вас полезной!
 
